@@ -1,3 +1,9 @@
+; c = case sensitive
+; c1 = ignore the case that was typed, always use the same case for output
+; * = immediate change (no need for space, period, or enter)
+; ? = triggered even when the character typed immediately before it is alphanumeric
+; r = raw output
+;
 ;------------------------------------------------------------------------------
 ; CHANGELOG:
 ; 
@@ -91,7 +97,7 @@ Return
 ; Get the selected text. The clipboard is used instead of "ControlGet Selected"
 ; as it works in more editors and word processors, java apps, etc. Save the
 ; current clipboard contents to be restored later.
-AutoTrim Off  ; Retain any leading and trailing whitespace on the clipboard.
+AutoTrim On  ; Delete any leading and trailing whitespace on the clipboard.  Why would you want this?
 ClipboardOld = %ClipboardAll%
 Clipboard =  ; Must start off blank for detection to work.
 Send ^c
@@ -117,7 +123,7 @@ if ErrorLevel <> 0  ; The user pressed Cancel.
 ; Otherwise, add the hotstring and reload the script:
 FileAppend, `n%Hotstring%, %A_ScriptFullPath%  ; Put a `n at the beginning in case file lacks a blank line at its end.
 Reload
-Sleep 200 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
+Sleep 1000 ; If successful, the reload will close this instance during the Sleep, so the line below will never be reached.
 MsgBox, 4,, The hotstring just added appears to be improperly formatted.  Would you like to open the script for editing? Note that the bad hotstring is at the bottom of the script.
 IfMsgBox, Yes, Edit
 return
@@ -146,7 +152,7 @@ return
 ::arraign::
 ::assign::
 ::benign::
-::campaign::
+:?:campaign:: ; covers "countercampaign". no such words as -campaing
 ::champaign::
 ::codesign::
 ::coign::
@@ -154,7 +160,7 @@ return
 ::consign::
 ::coreign::
 ::cosign::
-::countercampaign::
+;::countercampaign::
 ::countersign::
 ::deign::
 ::deraign::
@@ -176,6 +182,7 @@ return
 ::resign::
 ::sign::
 ::sovereign::
+::unalign::
 ::unbenign::
 ::verisign::
 return  ; This makes the above hotstrings do nothing so that they override the ign->ing rule below.
@@ -200,7 +207,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 :?:;ve::'ve
 ::sice::since  ; Must precede the following line!
 :?:sice::sive
-:?:t eh:: the
+;:?:t eh:: the   ; converts "but eh" to "bu the"
 :?:t hem:: them
 
 
@@ -9035,6 +9042,82 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::october::October
 ::november::November
 ::december::December
+
+;-------------------------------------------------------------------------------
+; Contractions (some duplicated in main list)
+;-------------------------------------------------------------------------------
+::aint::ain't
+::arent::aren't
+::arne't::aren't
+::cant'::can't
+::cant::can't
+::cmon::c'mon
+::cnat::can't
+::coudlnt::couldn't
+::couldve::could've
+::coulnd't::couldn't
+::coulndt::couldn't
+::didnt::didn't
+::does’t::doesn’t
+::does't::doesn't
+::doesnt::doesn't
+::doesnt'::doesn't
+::dont::don't
+::hadnt::hadn't
+::hasnt::hasn't
+::havent::haven't
+::hed::he'd
+::heres::here's
+::hes::he's
+::howd::how'd
+::hows::how's
+::I;m::I'm
+::isnt'::isn't
+::isnt::isn't
+::itll::it'll
+::ive::I've
+::I`;m::I'm
+::mightnt::mightn't
+::mightve::might've
+::mustnt::mustn't
+::odn't::don't
+::odnt::don't
+::oughtnt::oughtn't
+::shant::shan't
+::shes::she's
+::sholdnt::shouldn't
+::shoudlnt::shouldn't
+::shouldnt::shouldn't
+::shouldve::should've
+::shuoldn't::shouldn't
+::sohldn't::shouldn't
+::sohuldn't::shouldn't
+::sohldnt::shouldn't
+::thats::that's
+::theres::there's
+::theyd::they'd
+::theyll::they'll
+::theyr'e::they're
+::theyre::they're
+::theyve::they've
+::thtas::that's
+:c:ti's::it's
+::w'ere::we're
+::wasnt::wasn't
+::werent::weren't
+::weve::we've
+::whats::what's
+::whos::who's
+::whyd::why'd
+::wont::won't
+::woudlnt::wouldn't
+::wouldnt::wouldn't
+::wouldve::would've
+::yall::y'all
+::youd::you'd
+::youll::you'll
+::youre::you're
+::youve::you've
 
 
 ;-------------------------------------------------------------------------------
