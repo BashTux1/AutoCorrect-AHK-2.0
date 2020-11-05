@@ -9144,7 +9144,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::gaetan::Gaëtan
 ::Gaetan::Gaëtan
 ::myslef::myself
-::alot::a lot
 ::i::I
 ::worth while::worthwhile
 ::enoug::enough
