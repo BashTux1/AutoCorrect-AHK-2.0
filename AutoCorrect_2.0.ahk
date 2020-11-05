@@ -1221,7 +1221,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::approxiately::approximately
 ::aproximation::approximation
 ::Apirl::April
-::april::April
 ::eptitude::aptitude
 ::aquarius::Aquarius
 ::aquaduct::aqueduct
@@ -1410,7 +1409,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::audeince::audience
 ::audiance::audience
 ::auguat::August
-::august::August
 ::Ausust::August
 ::Australiasia::Australasia
 ::austrailia::Australia
