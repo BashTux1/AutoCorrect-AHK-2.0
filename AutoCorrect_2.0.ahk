@@ -19,28 +19,28 @@
 ; Sep 24 2006: Initial release by Jim Biancolo (http://www.biancolo.com)
 ; 
 ; INTRODUCTION
-; 
+;
 ; This is an AutoHotKey script that implements AutoCorrect against several
 ; "Lists of common misspellings":
-; 
+;
 ; This does not replace a proper spellchecker such as in Firefox, Word, etc.
 ; It is usually better to have uncertain typos highlighted by a spellchecker
 ; than to "correct" them incorrectly so that they are no longer even caught by
 ; a spellchecker: it is not the job of an autocorrector to correct *all*
 ; misspellings, but only those which are very obviously incorrect.
-; 
+;
 ; From a suggestion by Tara Gibb, you can add your own corrections to any
 ; highlighted word by hitting Win+H. These will be added to a separate file,
 ; so that you can safely update this file without overwriting your changes.
-; 
+;
 ; Some entries have more than one possible resolution (achive->achieve/archive)
 ; or are clearly a matter of deliberate personal writing style (wanna, colour)
-; 
+;
 ; These have been placed at the end of this file and commented out, so you can
 ; easily edit and add them back in as you like, tailored to your preferences.
-; 
+;
 ; SOURCES
-; 
+;
 ; http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings
 ; http://en.wikipedia.org/wiki/Wikipedia:Typo
 ; Microsoft Office autocorrect list
@@ -48,9 +48,9 @@
 ; OpenOffice autocorrect list
 ; TextTrust press release
 ; User suggestions.
-; 
+;
 ; CONTENTS
-; 
+;
 ;   Settings
 ;   AUto-COrrect TWo COnsecutive CApitals (commented out by default)
 ;   Win+H code
@@ -147,6 +147,8 @@ return
 ; From: http://www.morewords.com/e nds-with/gn/
 ;------------------------------------------------------------------------------
 #Hotstring B0  ; Turns off automatic backspacing for the following hotstrings.
+; Can be suffix exceptions, too, but should correct "-aling" without correcting "-align".
+;																						 
 ::align::
 ::antiforeign::
 ::arraign::
@@ -310,7 +312,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ; Accented English words, from, amongst others,
 ; http://en.wikipedia.org/wiki/List_of_English_words_with_diacritics
 ; I have included all the ones compatible with reasonable codepages, and placed
-; those that may often not be accented either from a clash with an unaccented 
+; those that may often not be accented either from a clash with an unaccented
 ; word (resume), or because the unaccented version is now common (cafe).
 ;------------------------------------------------------------------------------
 ::aesop::Æsop
@@ -465,7 +467,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::jalapeno::jalapeño
 ::jalapenos::jalapeños
 ::jardiniere::jardinière
-::krouzek::krouek
+::krouzek::kroužek
 ::kummel::kümmel
 ::kaldolmar::kåldolmar
 ::landler::ländler
@@ -504,6 +506,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::naiver::naïver
 ::naives::naïves
 ::naivete::naïveté
+; ::nee::née ; mistyping things like "I nee da" is more common.
 ::negligee::negligée
 ::negligees::negligées
 ::neufchatel cheese::Neufchâtel cheese
@@ -598,7 +601,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vins rose::vins rosé
 ::vis a vis::vis à vis
 ::vis-a-vis::vis-à-vis
-::voila::voilà 
+::voila::voilà
 
 ;------------------------------------------------------------------------------
 ; Common Misspellings - the main list
@@ -8758,7 +8761,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 :*:cooperat::coöperat
 ::(c)::©
 ::(r)::®
-::(tm)::
+::(tm)::™
 ::a gogo::à gogo
 ::abbe::abbé
 ::accension::accession, ascension
@@ -8797,7 +8800,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::boaut::bout, boat, about
 ::Bon::Bön
 
-::assasined::assassinated Broken by ":*:assasin::", but no great loss.
+::assasined::assassinated ; Broken by ":*:assasin::", but no great loss.
 ::Bootes::Boötes
 ::bric-a-brac::bric-à-brac
 ::buring::burying, burning, burin, during
@@ -8928,6 +8931,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::neigbouring::neighbouring, neighboring
 ::neigbours::neighbours, neighbors
 ::nto:: not ; Replaced with case sensitive for NTO acronym.
+::od::do, of			
 ::oging::going, ogling
 ::ole::olé
 ::onot::note, not
@@ -8992,6 +8996,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thast::that, that's
 ::theather::theater, theatre
 ::ther::there, their, the
+::thse::these, those					
 ::thikning::thinking, thickening
 ::throught::thought, through, throughout
 ::tiem::time, Tim
@@ -9028,7 +9033,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thursday::Thursday
 ::friday::Friday
 ::saturday::Saturday
-::sunday::Sunday 
+::sunday::Sunday
 
 ::january::January
 ::february::February
@@ -9125,6 +9130,16 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ;-------------------------------------------------------------------------------
 
 ::im::I'm
+::at he::at the
+::differnet::different					  
+::cutre::cuter
+::enuogh::enough
+::extrmely::extremely
+::htan::than
+::htme::them
+::nad::and
+::imaginig::imagining
+::ipmedance::impedance
 ::ive::I've
 ::gaetan::Gaëtan
 ::Gaetan::Gaëtan
@@ -9133,7 +9148,18 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::i::I
 ::worth while::worthwhile
 ::enoug::enough
-::(c)::©
-::(r)::®
-::(tm)::
 ::creme::crème
+::poewr::power
+::poictures::pictures
+::probalby::probably				
+::realisitc::realistic				
+::remmeber::remember
+::shold::should
+::sohuld::should
+::t othe::to the
+::thuogh::though
+::tihnk::think
+::tohught::thought
+::usb::USB
+::whne::when
+::writtten::written
