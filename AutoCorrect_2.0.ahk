@@ -2634,6 +2634,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::cusotmers::customers
 ::cutsomers::customers
 ::customization::customisation
+::customizations::customisations
 ::customize::customise
 ::cutted::cut
 ::cultery::cutlery
