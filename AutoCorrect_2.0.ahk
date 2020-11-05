@@ -2903,6 +2903,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::differant::different
 ::differnt::different
 ::diffrent::different
+::differnet::different
 ::difefrent::different
 ::differemt::different
 ::differentiatiations::differentiations
@@ -8799,7 +8800,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::belives::believes, beliefs
 ::boaut::bout, boat, about
 ::Bon::Bön
-
 ::assasined::assassinated ; Broken by ":*:assasin::", but no great loss.
 ::Bootes::Boötes
 ::bric-a-brac::bric-à-brac
@@ -9148,7 +9148,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::i::I
 ::worth while::worthwhile
 ::enoug::enough
-::creme::crème
 ::poewr::power
 ::poictures::pictures
 ::probalby::probably				
