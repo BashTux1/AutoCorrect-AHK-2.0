@@ -1252,8 +1252,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Artic Circle::Arctic Circle
 ::Artic Ocean::Arctic Ocean
 ::ardor ::ardour
-::are'nt::aren't
-::arn't::aren't
 ::argubly::arguably
 ::argueably::arguably
 ::arguebly::arguably
@@ -1839,8 +1837,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::canoing::canoeing
 ::cannonical::canonical
 ::canonize::canonise
-::cant::can't
-::can't of::can't have
 ::cantalope::cantaloupe
 ::capabilites::capabilities
 ::caperbility::capability
@@ -2580,9 +2576,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::coudl::could
 ::could of::could have
 ::couldthe::could the
-::coudn't::couldn't
-::coudln't::couldn't
-::couldnt::couldn't
 ::coucil::council
 ::councellor::councillor
 ::councilor::councillor
@@ -2890,9 +2883,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::dichtomy::dichotomy
 ::doed::did
 ::didnot::did not
-::did'nt::didn't
-::didnt::didn't
-::didint::didn't
 ::diesal::diesel
 ::diference::difference
 ::differance::difference
@@ -3091,11 +3081,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::doens::does
 ::doese::does
 ::doe snot::does not
-::does'nt::doesn't
-::doesnt::doesn't
-::dosen't::doesn't
-::doens't::doesn't
-::dosn't::doesn't
 ::doign::doing
 ::donig::doing
 ::doimg::doing
@@ -3105,9 +3090,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::dominiant::dominant
 ::dominaton::domination
 ::doned::done
-::do'nt::don't
-::dont::don't
-::don't no::don't know
 ::doorjam::door jamb
 ::doppleganger::doppelgänger
 ::dorment::dormant
@@ -4095,8 +4077,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::habsbourg::Habsburg
 ::hda::had
 ::hadbeen::had been
-::had'nt::hadn't
-::hadnt::hadn't
 ::haemorrage::haemorrhage
 ::Hallowean::Halloween
 ::hallowean::Halloween
@@ -4136,8 +4116,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::hardwear::hardware
 ::hsa::has
 ::hasbeen::has been
-::has'nt::hasn't
-::hasnt::hasn't
 ::hastly::hastily
 ::ahev::have
 ::ahve::have
@@ -4187,14 +4165,12 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ehr::her
 ::ehre::here
 ::heridity::heredity
-::here;s::here's
 ::hertiage::heritage
 ::heroe::hero
 ::heros ::heroes
 ::heros::heroes
 ::her's::hers
 ::hertzs::hertz
-::hes::he's
 ::hesistant::hesitant
 ::heterogenous ::heterogeneous
 ::heterogenous::heterogeneous
@@ -4306,7 +4282,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::iceburg::iceberg
 ::iceing::icing
 ::iconclastic::iconoclastic
-::i;d::I'd
 ::idae::idea
 ::idaeidae::idea
 ::idealize::idealise
@@ -4343,7 +4318,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ilogical::illogical
 ::ilumination::illumination
 ::illution::illusion
-::i"m::I'm
 ::imagenary::imaginary
 ::imaginery::imaginary
 ::immagination::imagination
@@ -4765,8 +4739,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::i snot::is not
 ::is stil::is still
 ::isthe::is the
-::is'nt::isn't
-::isnt::isn't
 ::Isreal::Israel
 ::Israely::Israeli
 ::Isreali::Israeli
@@ -4781,15 +4753,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ihaca::Ithaca
 ::itenerant::itinerant
 ::itinery::itinerary
-::i'ts::it's
-::its'::it's
-::its's::it's
-::it;s::it's
-::its a::it's a
-::it snot::it's not
-::it' snot::it's not
-::iits the::it's the
-::its the::it's the
 ::itsself::itself
 ::jaques::jacques
 ::Jamacia::Jamaica
@@ -7220,11 +7183,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::shoud::should
 ::shoudl::should
 ::should of::should have
-::should'nt::shouldn't
-::shouldnt::shouldn't
-::shoudln::shouldn't
-::shoudln't::shouldn't
-::shouldent::shouldn't
 ::sohw::show
 ::showinf::showing
 ::shrewed::shrewd
@@ -7919,8 +7877,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::tyhat::that
 ::thatt he::that the
 ::thatthe::that the
-::thast::that's
-::thats::that's
 ::hte::the
 ::teh::the
 ::tghe::the
@@ -7943,7 +7899,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::theit::their
 ::theri::their
 ::thier::their
-::there's is::theirs is
+;::there's is::theirs is ; Conflicts with "there's" in Contractions section.
 ::htem::them
 ::themself::themselves
 ::themselfs::themselves
@@ -7961,9 +7917,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ther::there
 ::htere::there
 ::their are::there are
-::they're are::there are
+;::they're are::there are ; Conflicts with "they're" in Contractions section.
 ::their is::there is
-::they're is::there is
+;::they're is::there is ; Conflicts with "they're" in Contractions section.
 ::therafter::thereafter
 ::therby::thereby
 ::therfore::therefore
@@ -7973,11 +7929,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::htey::they
 ::tehy::they
 ::thay::they
-::they;l::they'll
-::theyll::they'll
-::they;r::they're
-::they;v::they've
-::theyve::they've
 ::thickend::thickened
 ::theif::thief
 ::theives::thieves
@@ -8550,8 +8501,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ws::was
 ::weas::was
 ::wa snot::was not
-::was'nt::wasn't
-::wasnt::wasn't
 ::watchs::watches
 ::wya::way
 ::wayword::wayward
@@ -8561,7 +8510,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::webcasted::webcast
 ::webstie::website
 ::wesbite::website
-::we;d::we'd
 ::wendsay::Wednesday
 ::wendsday::Wednesday
 ::wensday::Wednesday
@@ -8574,13 +8522,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vell::well
 ::whent::went
 ::werre::were
-::weere::we're
-::were'nt::weren't
-::werent::weren't
-::wern't::weren't
 ::waht::what
 ::whta::what
-::what;s::what's
 ::wheelbarrel::wheelbarrow
 ::wehn::when
 ::whn::when
@@ -8620,8 +8563,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::wholey::wholly
 ::wholley::wholly
 ::whon::whom
-::whos::who's
-::who;s::who's
 ::widesread::widespread
 ::weild::wield
 ::weilded::wielded
@@ -8662,8 +8603,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::womens'::women's
 ::womens::women's
 ::wonderfull::wonderful
-::wont::won't
-::wo'nt::won't
 ::wrod::word
 ::weared::wore
 ::owrk::work
@@ -8684,9 +8623,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::wuould::would
 ::wouldbe::would be
 ::would of::would have
-::would'nt::wouldn't
-::wouldnt::wouldn't
-::woudln't::wouldn't
 ::reak::wreak
 ::wecked::wrecked
 ::wresters::wrestlers
@@ -8705,7 +8641,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::yaht::yacht
 ::yatch::yacht
 ::yaching::yachting
-::ya'll::y'all
 ::yaer::year
 ::eyar::year
 ::yera::year
@@ -8725,27 +8660,15 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::u ::you
 ::yoiu::you
 ::youare::you are
-::you;d::you'd
 ::younge::young
 ::yonger::younger
 ::yuonger::younger
 ::ur ::your
 ::yoru::your
 ::yuor::your
-::you're own::your own
-::youre::you're
-::your a::you're a
-::your an::you're an
-::your her::you're her
-::your here::you're here
-::your his::you're his
-::your my::you're my
-::your the::you're the
-::your their::you're their
-::your your::you're your
+;::you're own::your own ;  ; Conflicts with "you're" in Contractions section.
 ::youself::yourself
 ::youseff::yousef
-::youve::you've
 ::zeebra::zebra
 ::Ziegfield Follies::Ziegfeld Follies
 ::Sionist::Zionist
@@ -9049,79 +8972,141 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::december::December
 
 ;-------------------------------------------------------------------------------
-; Contractions (some duplicated in main list)
+; Contractions
 ;-------------------------------------------------------------------------------
 ::aint::ain't
 ::arent::aren't
 ::arne't::aren't
+::are'nt::aren't
+::arn't::aren't
 ::cant'::can't
 ::cant::can't
-::cmon::c'mon
 ::cnat::can't
+::can't of::can't have
+::cmon::c'mon
 ::coudlnt::couldn't
-::couldve::could've
 ::coulnd't::couldn't
 ::coulndt::couldn't
+::coudn't::couldn't
+::coudln't::couldn't
+::couldnt::couldn't
+::couldve::could've
 ::didnt::didn't
-::does’t::doesn’t
+::did'nt::didn't
+::didnt::didn't
+::didint::didn't
+::does’t::doesn't
 ::does't::doesn't
 ::doesnt::doesn't
 ::doesnt'::doesn't
+::does'nt::doesn't
+::dosen't::doesn't
+::doens't::doesn't
+::dosn't::doesn't
 ::dont::don't
+::odn't::don't
+::odnt::don't
+::do'nt::don't
+::dont::don't
+::don't no::don't know
 ::hadnt::hadn't
+::had'nt::hadn't
+::hadnt::hadn't
+::hasnt::hasn't
+::has'nt::hasn't
 ::hasnt::hasn't
 ::havent::haven't
 ::hed::he'd
 ::heres::here's
+::here;s::here's
 ::hes::he's
 ::howd::how'd
 ::hows::how's
+::i;d::I'd
+::i"m::I'm
 ::I;m::I'm
+::im::I'm
 ::isnt'::isn't
 ::isnt::isn't
+::is'nt::isn't
 ::itll::it'll
 ::ive::I've
-::I`;m::I'm
 ::mightnt::mightn't
 ::mightve::might've
 ::mustnt::mustn't
-::odn't::don't
-::odnt::don't
 ::oughtnt::oughtn't
 ::shant::shan't
 ::shes::she's
 ::sholdnt::shouldn't
 ::shoudlnt::shouldn't
 ::shouldnt::shouldn't
-::shouldve::should've
 ::shuoldn't::shouldn't
 ::sohldn't::shouldn't
 ::sohuldn't::shouldn't
 ::sohldnt::shouldn't
+::should'nt::shouldn't
+::shoudln::shouldn't
+::shoudln't::shouldn't
+::shouldent::shouldn't
+::shouldve::should've
 ::thats::that's
+::thtas::that's
+::thast::that's
 ::theres::there's
 ::theyd::they'd
 ::theyll::they'll
+::they;l::they'll
 ::theyr'e::they're
 ::theyre::they're
+::they;r::they're
 ::theyve::they've
-::thtas::that's
+::they;v::they've
 :c:ti's::it's
+::i'ts::it's
+::its'::it's
+::its's::it's
+::it;s::it's
+::its a::it's a
+::it snot::it's not
+::it' snot::it's not
+::iits the::it's the
+::its the::it's the
+::was'nt::wasn't
+::wasnt::wasn't
+::we;d::we'd
 ::w'ere::we're
+::weere::we're
 ::wasnt::wasn't
 ::werent::weren't
+::were'nt::weren't
+::wern't::weren't
 ::weve::we've
 ::whats::what's
+::what;s::what's
 ::whos::who's
+::who;s::who's
 ::whyd::why'd
 ::wont::won't
+::wo'nt::won't
 ::woudlnt::wouldn't
 ::wouldnt::wouldn't
+::would'nt::wouldn't
+::woudln't::wouldn't
 ::wouldve::would've
 ::yall::y'all
+::ya'll::y'all
 ::youd::you'd
+::you;d::you'd
 ::youll::you'll
 ::youre::you're
+::your a::you're a
+::your an::you're an
+::your her::you're her
+::your here::you're here
+::your his::you're his
+::your my::you're my
+::your the::you're the
+::your their::you're their
 ::youve::you've
 
 
@@ -9129,7 +9114,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ; Anything below this point was added to the script by the user via the Win+H hotkey.
 ;-------------------------------------------------------------------------------
 
-::im::I'm
 ::at he::at the
 ::differnet::different					  
 ::cutre::cuter
@@ -9140,7 +9124,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::nad::and
 ::imaginig::imagining
 ::ipmedance::impedance
-::ive::I've
 ::gaetan::Gaëtan
 ::Gaetan::Gaëtan
 ::myslef::myself
