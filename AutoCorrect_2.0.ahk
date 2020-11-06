@@ -7977,6 +7977,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::tiget::tiger
 ::Tiajuana::Tijuana
 ::tiem::time
+::teim::time
 ::timne::time
 ::tiome::time
 ::tothe::to the
