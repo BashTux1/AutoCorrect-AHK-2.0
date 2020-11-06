@@ -9059,6 +9059,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::they;r::they're
 ::theyve::they've
 ::they;v::they've
+:c:Ill::I'll ; only correct upper case Ill, to avoide conflict with ill (I feel ill)
 :c:ti's::it's
 ::i'ts::it's
 ::its'::it's
@@ -9142,4 +9143,3 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::usb::USB
 ::whne::when
 ::writtten::written
-:c:Ill::I'll
