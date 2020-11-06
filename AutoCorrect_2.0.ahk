@@ -1,4 +1,4 @@
-; c = case sensitive
+﻿; c = case sensitive
 ; c1 = ignore the case that was typed, always use the same case for output
 ; * = immediate change (no need for space, period, or enter)
 ; ? = triggered even when the character typed immediately before it is alphanumeric
