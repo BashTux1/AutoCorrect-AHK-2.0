@@ -4,11 +4,11 @@ This is a combination of the 2007 [AutoHotkey AutoCorrect script](http://www.aut
 
 My version contains a massive amount of new content from : http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings 
 (additions since the original 2007 script was made)
-the Main list has increased from **5880** corrections up to **8139** and counting. 
+the Main list has increased from **5880** corrections up to **8140+**. 
 
-**NOTE:** My list has been extensively edited **specifically for British English, NOT American English.** (e.g. customise / customize )
+**NOTE:** My script has been extensively edited **specifically for British English, NOT American English.** (e.g. customise / customize )
 
-~~Future releases (should I start getting help from others, can include separated sections for British and American English variations~~
+~~Future releases can include separated sections for British and American English variations~~
 
-Have added British to American, American to British sections within the script. Still needs a lot of work to remove the duplicates in the main list
-enabling to easily uncomment and comment out the entire sections you need.
+Have added **British to American, American to British sections within the script.** 
+Still needs a lot of work to remove the duplicates in the main list allowing to easily uncomment and comment entire sections you prefer.
