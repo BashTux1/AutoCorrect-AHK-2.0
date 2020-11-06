@@ -45,6 +45,7 @@
 ; http://en.wikipedia.org/wiki/Wikipedia:Typo
 ; Microsoft Office autocorrect list
 ; Script by jaco0646 http://www.autohotkey.com/forum/topic8057.html
+; https://www.spellzone.com/pages/british-american.cfm
 ; OpenOffice autocorrect list
 ; TextTrust press release
 ; User suggestions.
@@ -8823,6 +8824,29 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::wilful::willful
 ::woollen::woolen
 */
+
+;------------------------------------------------------------------------------
+; Ambiguous entries, words as used in British /  American, You decide which you want to use or omit
+;------------------------------------------------------------------------------
+/*
+licence (noun - British) (I've lost my driving licence.)
+license (verb - British) (He is licensed to drive large trucks)
+license (Used in American as noun and verb)
+
+practice (noun - British) 
+practice (Used in American as noun and verb)
+practise (verb - British) (I practise the piano every day)
+
+## Exceptions, these are used in both countries:
+size
+capsize
+prize
+seize
+advise
+surprise
+advertise
+*/
+
 
 ;------------------------------------------------------------------------------
 ; Amercian to British corrections.
