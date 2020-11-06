@@ -1,5 +1,7 @@
 # AutoCorrect-AHK-2.0
 
+[AutoHotKey](https://www.autohotkey.com/) script for AutoCorrect.
+
 This is a combination of the 2007 [AutoHotkey AutoCorrect script](http://www.autohotkey.com/download/AutoCorrect.ahk) as well as [endolith's](https://gist.github.com/endolith/876629) script (as of 2020-11-05) with my customisations and additions.
 
 My version contains a massive amount of new content from : http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings </br>
