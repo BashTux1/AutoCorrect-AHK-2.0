@@ -15,4 +15,4 @@ the Main list has increased from **5900+-** corrections up to **8200+-**.
 
 **NOTE:** My script has been extensively edited **specifically for British English, NOT American English.** (e.g. customise / customize )
 
-* Added **British to American and American to British sections within the script.** )Still needs a lot of work to remove the duplicates in the main list allowing to easily uncomment and comment entire sections you prefer.)
+* Added **British to American and American to British sections within the script.** )Still needs a lot of work to remove the duplicates in the main list, allowing to easily uncomment and comment entire sections you prefer.)
