@@ -1155,9 +1155,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::unperiodic::aperiodic
 ::apolegetics::apologetics
 ::appologies::apologies
-::apologize::apologise
-::apoligize::apologise
-::appologize::apologise
 ::appology::apology
 ::apalled::appalled
 ::aparatus::apparatus
@@ -7241,7 +7238,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::stabilty::stability
 ::stablity::stability
 ::stablility::stability
-::stabalizer::stabilizer
 ::stagnet::stagnant
 ::stainlees::stainless
 ::stallwart::stalwart
@@ -8502,9 +8498,11 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 
 
 ;------------------------------------------------------------------------------
-; British to American corrections.
-; Uncomment (remove the trailing /* and ending */) below to use this set of corrections.
-; (Not yet removed any duplications in the main list nor added any common misspellings for each word)
+; American English
+;
+; Uncomment (remove the trailing /* and ending */) below to use this list of corrections.
+; Make sure you comment out (ADD trailing /* and ending */) the "British English" section. 
+; You should only have either British English or American English enabled, NOT both, so that no conflicts occur)
 ;------------------------------------------------------------------------------
 /*
 ::acknowledgement::acknowledgment
@@ -8515,6 +8513,11 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::anaemia::anemia
 ::analogue::analog
 ::analyse::analyze
+::apologise::apologize
+::apoligize::apologize
+::apoligise::apologize
+::appologize::apologize
+::appologise::apologize
 ::appal::appall
 ::appetiser::appetizer
 ::armour::armor
@@ -8728,6 +8731,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::sombre::somber
 ::spectre::specter
 ::splendour::splendor
+::stabalizer::stabilizer
+::stabaliser::stabilizer
 ::standardise::standardize
 ::sulphate::sulfate
 ::sulphide::sulfide
@@ -8748,18 +8753,20 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 */
 
 ;------------------------------------------------------------------------------
-; Ambiguous entries, words as used in British /  American, You decide which you want to use or omit
+; Ambiguous words used in British English
 ;------------------------------------------------------------------------------
 /*
 licence (noun - British) (I've lost my driving licence.)
 license (verb - British) (He is licensed to drive large trucks)
-license (Used in American as noun and verb)
 
 practice (noun - British) 
-practice (Used in American as noun and verb)
 practise (verb - British) (I practise the piano every day)
+*/
 
-## Exceptions, these are used in both countries:
+;------------------------------------------------------------------------------
+; Exceptions, these are used in both countries (and will be in the main list)
+;------------------------------------------------------------------------------
+/*
 size
 capsize
 prize
@@ -8771,9 +8778,10 @@ advertise
 
 
 ;------------------------------------------------------------------------------
-; Amercian to British corrections.
-; Uncomment (remove the trailing /* and ending */) below to use this set of corrections.
-; (Not yet removed any duplications in the main list nor added any common misspellings for each word)
+; British English (uncommented by default)
+;
+; If using "American English" comment out (ADD the trailing /* and ending */) below to disable this set of corrections.
+; You should only have either British English or American English enabled, NOT both, so that no conflicts occur)
 ;------------------------------------------------------------------------------
 
 ::acknowledgment::acknowledgement
@@ -8784,6 +8792,11 @@ advertise
 ::analog::analogue
 ::analyze::analyse
 ::anemia::anaemia
+::apologize::apologise
+::apoligize::apologise
+::apoligise::apologise
+::appologize::apologise
+::appologise::apologise
 ::appall::appal
 ::appetizer::appetiser
 ::armor::armour
@@ -8994,6 +9007,8 @@ advertise
 ::somber::sombre
 ::specter::spectre
 ::splendor::splendour
+::stabalizer::stabiliser
+::stabaliser::stabiliser
 ::standardize::standardise
 ::sulfate::sulphate
 ::sulfide::sulphide
