@@ -28,4 +28,5 @@ See **American English** commented section within the script with instructions t
 
 ## Changelog 
 
-* Added **British to American and American to British sections within the script.** )Still needs a lot of work to remove the duplicates in the main list, allowing to easily uncomment and comment entire sections you prefer.)
+* Copied in, thousands of new words from [Wikipedia's Lists_of_common_misspellings](http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings) 
+* Added **British English** and **American English** sections within the script. </br> Still needs some work (though the bulk is done) to move (American or British) words from the main list, into their respective sections.
