@@ -22,6 +22,7 @@ the Main list has increased from **5900+-** corrections up to **8200+-**.
 
 ## NOTE
 The script contains separate secetions for **British English** and **American English** </br>
+
 By default the script is enabled for **British English** </br>
 See **American English** commented section within the script with instructions to enable it (and Disable British English)
 
