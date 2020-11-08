@@ -58,17 +58,17 @@
 ;   Fix for -ign instead of -ing
 ;   Word endings
 ;   Word beginnings
-;	Word middles
+;   Word middles
 ;   Accented English words
 ;   Common Misspellings - the main list
-;	Contractions
-;	American English
-;	Ambiguous words used in British English
-;	Exceptions, these are used in both countries
-;	British English
+;   Contractions
+;   American English
+;   Ambiguous words used in British English
+;   Exceptions, these are used in both countries
+;   British English
 ;   Ambiguous entries - commented out
-;	Capitalise dates
-;	Anything below added by the user via the Win+H hotkey
+;   Capitalise dates
+;   Anything below added by the user via the Win+H hotkey
 ;------------------------------------------------------------------------------
 
 ;------------------------------------------------------------------------------
