@@ -68,6 +68,7 @@
 ;   British English
 ;   Ambiguous entries - commented out
 ;   Capitalise dates
+;   Common Acronyms to Capitalise
 ;   Anything below added by the user via the Win+H hotkey
 ;------------------------------------------------------------------------------
 
@@ -1089,6 +1090,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ancilliary::ancillary
 ::abd::and
 ::adn::and
+::nad::and
 ::anbd::and
 ::andd::and
 ::annd::and
@@ -1361,6 +1363,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::atleast::at least
 ::a tthat::at that
 ::atthe::at the
+::at he::at the
 ::eated::ate
 ::athiesm::atheism
 ::athiest::atheist
@@ -2615,6 +2618,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::customizations::customisations
 ::customize::customise
 ::cutted::cut
+::cutre::cuter
 ::cultery::cutlery
 ::cilinder::cylinder
 ::cyclinder::cylinder
@@ -3271,6 +3275,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::emnity::enmity
 ::enourmous::enormous
 ::enourmously::enormously
+::enoug::enough
+::enuogh::enough
 ::enought::enough
 ::inquire::enquire
 ::inquiry::enquiry
@@ -3534,6 +3540,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::extravagent::extravagant
 ::extremley::extremely
 ::extremly::extremely
+::extrmely::extremely
 ::extemely::extremely
 ::extrememly::extremely
 ::extermist::extremist
@@ -4256,6 +4263,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::imaginery::imaginary
 ::immagination::imagination
 ::imagin::imagine
+::imaginig::imagining
 ::inbalance::imbalance
 ::inbalanced::imbalanced
 ::immitate::imitate
@@ -4291,6 +4299,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::inpeach::impeach
 ::impecabbly::impeccably
 ::impedence::impedance
+::ipmedance::impedance
 ::empede::impede
 ::unplausible::implausible
 ::impliment::implement
@@ -5297,6 +5306,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::myraid::myriad
 ::mysef::myself
 ::mysefl::myself
+::myslef::myself
 ::misterious::mysterious
 ::misteryous::mysterious
 ::mysterous::mysterious
@@ -5949,6 +5959,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::physican::physician
 ::picure::picture
 ::pciture::picture
+::poictures::pictures
 ::peice::piece
 ::peices::pieces
 ::piefort::piedfort
@@ -6082,6 +6093,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Postdam::Potsdam
 ::postdam::Potsdam
 ::pwoer::power
+::poewr::power
 ::powerfull::powerful
 ::poverful::powerful
 ::poweful::powerful
@@ -6223,6 +6235,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::probablly::probably
 ::probaly::probably
 ::propably::probably
+::probalby::probably
 ::probelm::problem
 ::porblem::problem
 ::porblems::problems
@@ -6448,6 +6461,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::rela::real
 ::realization::realisation
 ::realsitic::realistic
+::realisitc::realistic
 ::reallity::reality
 ::erally::really
 ::realy::really
@@ -6617,6 +6631,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::remaning::remaining
 ::rember::remember
 ::remeber::remember
+::remmeber::remember
 ::rememberance::remembrance
 ::remembrence::remembrance
 ::reminescent::reminiscent
@@ -7034,6 +7049,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::shooted::shot
 ::sould::should
 ::shoud::should
+::shold::should
+::sohuld::should
 ::shoudl::should
 ::should of::should have
 ::sohw::show
@@ -7710,6 +7727,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::textes::texts
 ::tahn::than
 ::thna::than
+::htan::than
 ::thanbk::thank
 ::thansk::thanks
 ::htat::that
@@ -7745,6 +7763,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thier::their
 ;::there's is::theirs is ; Conflicts with "there's" in Contractions section.
 ::htem::them
+::htme::them
 ::themself::themselves
 ::themselfs::themselves
 ::themsleves::themselves
@@ -7788,6 +7807,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thikn::think
 ::thiunk::think
 ::tihkn::think
+::tihnk::think
 ::thingking::thinking
 ::thikning::thinking
 ::thikns::thinks
@@ -7814,6 +7834,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::threee::three
 ::threshhold::threshold
 ::treshold::threshold
+::thuogh::though
+::tohught::thought
 ::throuhg::through
 ::thru::through
 ::thoughout::throughout
@@ -7826,6 +7848,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::teim::time
 ::timne::time
 ::tiome::time
+::t othe::to the
 ::tothe::to the
 ::tot he::to the
 ::tabacco::tobacco
@@ -8365,6 +8388,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::whta::what
 ::wheelbarrel::wheelbarrow
 ::wehn::when
+::whne::when
 ::whn::when
 ::whent he::when the
 ::wehre::where
@@ -8455,6 +8479,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::worstened::worsened
 ::worstening::worsening
 ::worshiper::worshipper
+::worth while::worthwhile
 ::owudl::would
 ::woudl::would
 ::owuld::would
@@ -8470,6 +8495,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::wirting::writing
 ::writting::writing
 ::writen::written
+::writtten::written
 ::writed::wrote
 ::wroet::wrote
 ::X-Box::Xbox
@@ -9479,38 +9505,22 @@ advertise
 ::november::November
 ::december::December
 
+;-------------------------------------------------------------------------------
+; Common Acronyms to Capitalise
+; Move the ones you want in effect, above the commented section (/* .. */)
+;-------------------------------------------------------------------------------
+
+::usb::USB
+
+/*
+::bios::BIOS
+::nic::NIC
+::ip::IP
+::tcp:TCP
+::ram::RAM
+::hdd::HDD
+*/
 
 ;-------------------------------------------------------------------------------
 ; Anything below this point was added to the script by the user via the Win+H hotkey.
 ;-------------------------------------------------------------------------------
-
-::at he::at the
-::differnet::different					  
-::cutre::cuter
-::enuogh::enough
-::extrmely::extremely
-::htan::than
-::htme::them
-::nad::and
-::imaginig::imagining
-::ipmedance::impedance
-::gaetan::Gaëtan
-::Gaetan::Gaëtan
-::myslef::myself
-::i::I
-::worth while::worthwhile
-::enoug::enough
-::poewr::power
-::poictures::pictures
-::probalby::probably				
-::realisitc::realistic				
-::remmeber::remember
-::shold::should
-::sohuld::should
-::t othe::to the
-::thuogh::though
-::tihnk::think
-::tohught::thought
-::usb::USB
-::whne::when
-::writtten::written
