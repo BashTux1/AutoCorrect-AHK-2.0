@@ -279,7 +279,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 :*:nmae::name
 :*:necassa::necessa
 :*:negociat::negotiat
-:*:neigbor::neighbour
 :*:noticibl::noticeabl
 :*:ocasion::occasion
 :*:occuranc::occurrence
@@ -888,7 +887,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::aganist::against
 ::agianst::against
 ::againstt he::against the
-::aging::ageing
 ::agravate::aggravate
 ::aggaravates::aggravates
 ::agregate::aggregate
@@ -1009,7 +1007,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::altho::although
 ::altogehter::altogether
 ::alltogether::altogether
-::aluminum ::aluminium
 ::alumnas::alumnae
 ::alumnis::alumni
 ::alwayus::always
@@ -1051,8 +1048,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::amonut::amount
 ::amoutn::amount
 ::ammount::amount
-::ampitheater::amphitheater
-::ampitheatre::amphitheatre
 ::amplfieir::amplifier
 ::amplfiier::amplifier
 ::ampliotude::amplitude
@@ -1063,10 +1058,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ampule::ampoule
 ::ammused::amused
 ::Anahiem::Anaheim
-::analogue ::analog
 ::analagous::analogous
 ::analogeous::analogous
-::analyze ::analyse
 ::anaylsis::analysis
 ::analitic::analytic
 ::anarchim::anarchism
@@ -1261,7 +1254,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::aries::Aries
 ::armamant::armament
 ::armistace::armistice
-::armour ::armor
 ::arised::arose
 ::aronud::around
 ::arround::around
@@ -1418,7 +1410,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::austrailian::Australian
 ::auther::author
 ::autor::author
-::authorize::authorise
 ::authorative::authoritative
 ::authoritive::authoritative
 ::authorites::authorities
@@ -1467,7 +1458,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::akward::awkward
 ::ackward::awkward
 ::awaked::awoke
-::axe::ax
 ::aziumth::azimuth
 ::babys::babies
 ::bakc::back
@@ -1569,9 +1559,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::begginings::beginnings
 ::beigns::begins
 ::beggins::begins
-::behavour::behaviour
-::behavior ::behaviour
-::behavior::behaviour
 ::behove ::behoove
 ::Bejing::Beijing
 ::benig::being
@@ -1791,8 +1778,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::calander::calendar
 ::calender::calendar
 ::calenders::calendars
-::calibur::calibre
-::caliber::calibre
 ::Califronia::California
 ::califronia::California
 ::Califronian::Californian
@@ -1821,7 +1806,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Canadaian::Canadian
 ::Canadain::Canadian
 ::cancle::cancel
-::canceled::cancelled
 ::candadate::candidate
 ::canidate::candidate
 ::candiate::candidate
@@ -1847,8 +1831,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Capetown::Cape Town
 ::capetown::Cape Town
 ::captial::capital
-::capitalize::capitalise
-::captialize::capitalise
 ::captian::captain
 ::capitivity::captivity
 ::captued::captured
@@ -1894,8 +1876,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::casulaties::casualties
 ::casulaty::casualty
 ::Cataline::Catalina
-::catalouge::catalogue
-::catalog::catalogue
 ::catchs::catches
 ::catagories::categories
 ::catagorise::categorise
@@ -1942,7 +1922,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::centeral::central
 ::centralize::centralise
 ::centraly::centrally
-::center::centre
 ::centered::centred
 ::centrifical::centrifugal
 ::centuties::centuries
@@ -1998,11 +1977,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::charecter::character
 ::charector::character
 ::chracter::character
-::characterize::characterise
-::charaterized::characterised
-::charaterised::characterised
-::caracterised::characterised
-::caracterized::characterised
 ::characterstic::characteristic
 ::charactersistic::characteristic
 ::charistics::characteristics
@@ -2071,12 +2045,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::citaion::citation
 ::cirtus::citrus
 ::civillian::civilian
-::civilization::civilisation
-::civilize::civilise
 ::claded::clad
 ::claimes::claims
 ::claming::clamming
-::clamor::clamour
 ::clangor::clangour
 ::clas::class
 ::clasic::classic
@@ -2134,10 +2105,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::colonizators::colonizers
 ::collonade::colonnade
 ::collony::colony
-::colourless ::colorless
 ::collosal::colossal
-::color ::colour
-::color::colour
 ::coloration ::colouration
 ::collum::column
 ::collumn::column
@@ -2602,13 +2570,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::critcal::critical
 ::crtical::critical
 ::criticaly::critically
-::critiscise::criticise
-::critise::criticise
-::critisise::criticise
-::critisize::criticise
-::critize::criticise
-::criticize::criticise
-::critised::criticised
 ::criticing::criticising
 ::critiscism::criticism
 ::critisism::criticism
@@ -2679,7 +2640,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ecidious::deciduous
 ::decigram::decigramme
 ::deciliter::decilitre
-::decimeter::decimetre 
 ::decypher::decipher
 ::decyphered::deciphered
 ::descision::decision
@@ -2739,10 +2699,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::delerious::delirious
 ::delusionally::delusively
 ::devels::delves
-::demenor::demeanour
-::damenor::demeanour
-::damenour::demeanour
-::demenour::demeanour
 ::demorcracy::democracy
 ::demographical::demographic
 ::demolision::demolition
@@ -2875,10 +2831,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::divised::devised
 ::diablical::diabolical
 ::dialed::dialled
-::dialouge::dialogue
-::dialog::dialogue 
 ::diamons::diamonds
-::diarhea::diarrhoea
 ::dichtomy::dichotomy
 ::doed::did
 ::didnot::did not
@@ -3033,7 +2986,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::dissoluted::dissolved
 ::disolved::dissolved
 ::dissonent::dissonant
-::distill::distil
 ::distilation::distillation
 ::destinct::distinct
 ::distict::distinct
@@ -3099,9 +3051,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::dozend::dozen
 ::draftman::draftsman
 ::dramtic::dramatic
-::dramatize::dramatise
 ::drinked::drank
-::draft::draught
 ::draughtman::draughtsman
 ::Dravadian::Dravidian
 ::dravadian::Dravidian
@@ -3283,12 +3233,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::encyclopeadia::encyclopedia
 ::encyclpedia::encyclopedia
 ::encylopedia::encyclopedia
-::endevors::endeavors
-::endeaver::endeavour
-::endevor::endeavour
-::endevour::endeavour
-::endeavor::endeavour
-::endevours::endeavours
 ::endig::ending
 ::endolithes::endoliths
 ::endurace::endurance
@@ -3315,9 +3259,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::enought::enough
 ::inquire::enquire
 ::inquiry::enquiry
-::enroll ::enrol
-::enrole::enrol
-::inroll::enrol
 ::enrollment ::enrolment
 ::enrolement::enrolment
 ::ensconsed::ensconced
@@ -3368,8 +3309,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::epsiode::episode
 ::epidsodes::episodes
 ::epitomy::epitome
-::equalize::equalise
-::equaled::equalled
 ::equaly::equally
 ::equitorial::equatorial
 ::equilibium::equilibrium
@@ -3630,7 +3569,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::fately::fatally
 ::favor::favour
 ::favoutrable::favourable
-::favorite::favourite 
 ::feasability::feasibility
 ::feasable::feasible
 ::feauture::feature
@@ -3663,7 +3601,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::fued::feud
 ::fuedal::feudal
 ::fwe::few
-::fiber::fibre
 ::ficitional::fictional
 ::fictonal::fictional
 ::ficticious::fictitious
@@ -3711,7 +3648,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::flacid::flaccid
 ::flaged::flagged
 ::flamable::flammable
-::flavor::flavour
 ::flawess::flawless
 ::fleed::fled
 ::Flemmish::Flemish
@@ -3869,11 +3805,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::frution::fruition
 ::fustrate::frustrate
 ::frustrum::frustum
-::fulled::fuelled
-::fueled::fuelled
-::fufill::fulfil
-::fullfil::fulfil
-::fullfill::fulfil
 ::fufilled::fulfilled
 ::fulfiled::fulfilled
 ::funtion::function
@@ -3886,7 +3817,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::funguses::fungi
 ::firc::furc
 ::furnature::furniture
-::furor::furore
 ::furhter::further
 ::furuther::further
 ::futher::further
@@ -3953,7 +3883,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::gievn::given
 ::give's::gives
 ::giveing::giving
-::glamor::glamour
 ::glace::glance
 ::gloabl::global
 ::gnawwed::gnawed
@@ -4017,7 +3946,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::greately::greatly
 ::Greecian::Grecian
 ::growed::grew
-::gray::grey
 ::gridles::griddles
 ::greif::grief
 ::greviance::grievance
@@ -4076,7 +4004,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::habsbourg::Habsburg
 ::hda::had
 ::hadbeen::had been
-::haemorrage::haemorrhage
 ::Hallowean::Halloween
 ::hallowean::Halloween
 ::halfs::halves
@@ -4108,9 +4035,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::harassement::harassment
 ::harrasments::harassments
 ::harrassments::harassments
-::habor::harbour
-::habour::harbour
-::harbor::harbour
 ::hardend::hardened
 ::hardwear::hardware
 ::hsa::has
@@ -4231,8 +4155,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::honory::honorary
 ::honourary::honorary
 ::honourific::honorific
-::honor::honour
-::hounour::honour
 ::honorable ::honourable
 ::honarable::honourable
 ::honorable::honourable
@@ -4255,8 +4177,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::humoural::humoral
 ::humourous::humorous
 ::humerous::humorous
-::humer::humour
-::humor::humour
 ::humorist::humourist
 ::hundered::hundred
 ::hurricaine::hurricane
@@ -4597,7 +4517,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::instatance::instance
 ::instade::instead
 ::insted::instead
-::instill::instil
 ::institue::institute
 ::insitution::institution
 ::instutionalized::institutionalized
@@ -4768,11 +4687,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::japanes::Japanese
 ::jeapardy::jeopardy
 ::Jersualem::Jerusalem
-::jewler::jeweler
-::jewlery::jewellery
-::jewlrey::jewellery
-::jewelery::jewellery
-::jewllery::jewellery
 ::Jharkand::Jharkhand
 ::Johanine::Johannine
 ::johanine::Johannine
@@ -4787,8 +4701,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Juadism::Judaism
 ::juadaism::Judaism
 ::juadism::Judaism
-::judgment::judgement
-::jugment::judgement
 ::judical::judicial
 ::juducial::judicial
 ::judisuary::judiciary
@@ -4807,8 +4719,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::keeped::kept
 ::keybord::keyboard
 ::killogram::kilogram
-::killometer::kilometer
-::killometre::kilometre
 ::kindergarden::kindergarten
 ::kinoscope::kinescope
 ::kingdon::kingdom
@@ -4836,7 +4746,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::labatory::laboratory
 ::labratory::laboratory
 ::labourious::laborious
-::labor::labour
 ::ladden::laden
 ::layed::laid
 ::lamda::lambda
@@ -4921,10 +4830,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::let;s::let's
 ::let's him::lets him
 ::let's it::lets it
-::luekemia::leukemia
-::lukemia::leukemia
 ::levle::level
-::leveled::levelled
 ::levetate::levitate
 ::levetated::levitated
 ::levetates::levitates
@@ -4984,8 +4890,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::litature::literature
 ::literture::literature
 ::litterature::literature
-::liturature::literature
-::liter::litre 
 ::litle::little
 ::littel::little
 ::litttle::little
@@ -5086,14 +4990,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::manouverability::manoeuvrability
 ::manoeuverable::manoeuvrable
 ::manouverable::manoeuvrable
-::maneover::manoeuvre
-::manuver::manoeuvre
-::manouver::manoeuvre
-::manuever::manoeuvre
-::maneovre::manoeuvre
-::maneuver::manoeuvre
-::manouvers::manoeuvres
-::manuevers::manoeuvres
 ::manufature::manufacture
 ::manufacturedd::manufactured
 ::manufatured::manufactured
@@ -5115,7 +5011,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::marryied::married
 ::marshmellow::marshmallow
 ::marrtyred::martyred
-::marvelous::marvellous
 ::Marixist::Marxist
 ::masonary::masonry
 ::masonery::masonry
@@ -5143,7 +5038,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::mabye::maybe
 ::mayorial::mayoral
 ::mccarthyst::mccarthyist
-::meager::meagre
 ::meaninng::meaning
 ::meaningfull::meaningful
 ::meaned::meant
@@ -5204,7 +5098,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::meterologist::meteorologist
 ::meterology::meteorology
 ::metorology::meteorology
-::meter::metre
 ::metropolian::metropolitan
 ::Maimi::Miami
 ::Micheal::Michael
@@ -5295,11 +5188,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::mythraic::Mithraic
 ::mixted::mixed
 ::missen::mizzen
-::mobilize::mobilise
 ::moccassins::moccasins
 ::modle::model
 ::modeled::modelled
-::modeling::modelling
 ::moderm::modem
 ::moderatley::moderately
 ::moderatly::moderately
@@ -5343,11 +5234,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::morgage::mortgage
 ::motiviated::motivated
 ::mottos::mottoes
-::mold::mould
 ::mountanous::mountainous
 ::montanous::mountainous
 ::montains::mountains
-::mustache::moustache
 ::moveable::movable
 ::movment::movement
 ::movei::movie
@@ -5413,7 +5302,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::natrual::natural
 ::natual::natural
 ::naturual::natural
-::naturalize::naturalise
 ::natuarlly::naturally
 ::naturaly::naturally
 ::naturely::naturally
@@ -5449,17 +5337,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::negociation::negotiation
 ::negotation::negotiation
 ::negotiater::negotiator
-::nieghbor::neighbour
-::nieghbour::neighbour
-::neigbor::neighbour
-::neigbour::neighbour
-::neighboor::neighbour
-::neighbor::neighbour
-::nieghborhood::neighbourhood
-::neighborhood::neighbourhood
-::neigbourhood::neighbourhood
-::neigbouring::neighbouring
-::neigbours::neighbours
 ::niether::neither
 ::neolitic::neolithic
 ::newphew::nephew
@@ -5639,7 +5516,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::oddites::oddities
 ::odouriferous::odoriferous
 ::odourous::odorous
-::odor::odour
 ::ouevre::oeuvre
 ::fo::of
 ::od::of
@@ -5647,7 +5523,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ofits::of its
 ::ofthe::of the
 ::oft he::of the ; Could be legitimate in poetry, but more usually a typo.
-::offense::offence
 ::offendor::offender
 ::offereings::offerings
 ::offce::office
@@ -5755,13 +5630,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::organiation::organisation
 ::orginization::organisation
 ::organiztion::organisation
-::orgainise::organise
-::orginise::organise
-::organize::organise
-::orgainize::organise
-::orginize::organise
 ::organim::organism
-::orginized::organized
 ::oriented::orientated
 ::oriention::orientation
 ::orgin::origin
@@ -5847,7 +5716,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::pamflet::pamphlet
 ::pamplet::pamphlet
 ::panal::panel
-::panelled::paneled
 ::panelling::paneling
 ::panelist::panellist
 ::panicing::panicking
@@ -6112,7 +5980,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::plentitude::plenitude
 ::plethura::plethora
 ::plyed::plied
-::plow ::plough
 ::peom::poem
 ::peoms::poems
 ::peotry::poetry
@@ -6147,7 +6014,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::pomegranite::pomegranate
 ::poore::poor
 ::populare::popular
-::popularize::popularise
 ::popularaty::popularity
 ::populaion::population
 ::popoulation::population
@@ -6289,7 +6155,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::presumeably::presumably
 ::presumibly::presumably
 ::presumabely::presumably
-::pretense::pretence
 ::prevale::prevail
 ::prevailance::prevalence
 ::prevelance::prevalence
@@ -6374,8 +6239,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::proffesor::professor
 ::professer::professor
 ::programable::programmable
-::programe::programme
-::program::programme
 ::programer::programmer
 ::ptogress::progress
 ::progessed::progressed
@@ -6552,7 +6415,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::rasied::raised
 ::runned::ran
 ::rancourous::rancorous
-::rancor::rancour
 ::randomize::randomise
 ::repid::rapid
 ::rarley::rarely
@@ -6570,9 +6432,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::readmition::readmission
 ::rela::real
 ::realization::realisation
-::realize::realise
-::relize::realise
-::relized::realised
 ::realsitic::realistic
 ::reallity::reality
 ::erally::really
@@ -6614,13 +6473,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::recipiants::recipients
 ::wreckless::reckless
 ::wrecklessness::recklessness
-::recogise::recognise
-::recognize::recognise
-::recogize::recognise
-::recongize::recognise
-::reconize::recognise
-::reconise::recognise
-::reconized::recognized
 ::recoiless::recoilless
 ::reccomend::recommend
 ::reccommend::recommend
@@ -6761,7 +6613,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::reminent::remnant
 ::remanants::remnants
 ::remodeled::remodelled
-::remodeling::remodelling
 ::renedered::rende
 ::rendevous::rendezvous
 ::rendezous::rendezvous
@@ -6925,8 +6776,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::rightous::righteous
 ::ridgid::rigid
 ::rigourous::rigorous
-::rigeur::rigour
-::rigor::rigour 
 ::rininging::ringing
 ::Rio de Janerio::Rio de Janeiro
 ::Rio de Janero::Rio de Janeiro
@@ -6949,9 +6798,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::rudimentatry::rudimentary
 ::rulle::rule
 ::ruller::ruler
-::rumers::rumors
-::rummor::rumour
-::rumor::rumour
 ::runer::runner
 ::runing::running
 ::runnung::running
@@ -6963,7 +6809,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::russina::Russian
 ::russion::Russian
 ::sabatical::sabbatical
-::saber::sabre
 ::Sacremento::Sacramento
 ::sacrafice::sacrifice
 ::sacrifical::sacrificial
@@ -7012,8 +6857,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::satric::satiric
 ::satrical::satirical
 ::satrically::satirically
-::satirize::satirise
-::satarize::satirise
 ::satisfactority::satisfactorily
 ::Saterday::Saturday
 ::saterday::Saturday
@@ -7022,9 +6865,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::svae::save
 ::svaes::saves
 ::saveing::saving
-::savior::saviour
-::savor::savour
-::savory::savoury
 ::savy::savvy
 ::saxaphone::saxophone
 ::sayig::saying
@@ -7042,7 +6882,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::senarios::scenarios
 ::sceen::scene
 ::scenary::scenery
-::scepter::sceptre
 ::schedual::schedule
 ::scheduel::schedule
 ::shedual::schedule
@@ -7237,8 +7076,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::skateing::skating
 ::skiied::skied
 ::skiier::skier
-::skilfull::skilful
-::skillfull::skilful
 ::slaugterhouses::slaughterhouses
 ::sleave::sleeve
 ::slided::slid
@@ -7251,7 +7088,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::smily::smiley
 ::smoothe::smooth
 ::smoothes::smooths
-::smolder::smoulder
 ::snuck::sneaked
 ::sneeks::sneaks
 ::snese::sneeze
@@ -7278,7 +7114,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::solatary::solitary
 ::soluable::soluble
 ::sollution::solution
-::somber::sombre
 ::smoe::some
 ::soem::some
 ::somone::someone
@@ -7349,7 +7184,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::spectauclar::spectacular
 ::spectaulars::spectaculars
 ::specator::spectator
-::specter::spectre
 ::spectometry::spectrometry
 ::spectum::spectrum
 ::speach::speech
@@ -7367,7 +7201,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::spiraling::spiralling
 ::spritual::spiritual
 ::spriritual::spiritual
-::spendour::splendour
 ::splited::split
 ::splitted::split
 ::spilts::splits
@@ -7743,7 +7576,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::swored::swore
 ::synchophant::sycophant
 ::syncophant::sycophant
-::symbolize::symbolise
 ::symbolizing::symbolising
 ::symetric::symmetric
 ::symmetral::symmetric
@@ -7894,7 +7726,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thenew::the new
 ::thesame::the same
 ::thetwo::the two
-::theather::theatre
 ::theit::their
 ::theri::their
 ::thier::their
@@ -8124,7 +7955,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::tyrranies::tyrannies
 ::tyrany::tyranny
 ::tyrrany::tyranny
-::tire::tyre
 ::ubiquitious::ubiquitous
 ::Ukrane::Ukraine
 ::Ukranian::Ukrainian
@@ -8335,13 +8165,10 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::valient::valiant
 ::vailidty::validity
 ::valetta::valletta
-::valor::valour
 ::valuble::valuable
 ::valueable::valuable
 ::vandalize::vandalise
 ::vannish::vanish
-::vaporize::vaporise
-::vapor::vapour
 ::varable::variable
 ::varible::variable
 ::varience::variance
@@ -8426,8 +8253,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vigilence::vigilance
 ::vigilent::vigilant
 ::vigourous::vigorous
-::vigeur::vigour
-::vigor::vigour
 ::villification::vilification
 ::villified::vilified
 ::villify::vilify
@@ -8553,7 +8378,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::hwile::while
 ::whilest::while
 ::whinning::whining
-::whisky ::whiskey
 ::wistle::whistle
 ::woh::who
 ::hwole::whole
@@ -8687,6 +8511,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ageing::aging
 ::aluminium::aluminum
 ::amphitheatre::amphitheater
+::ampitheater::amphitheater
 ::anaemia::anemia
 ::analogue::analog
 ::analyse::analyze
@@ -8697,32 +8522,62 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::authorise::authorize
 ::axe::ax
 ::behaviour::behavior
+::behavour::behavior
 ::caesarean::cesarean
 ::calibre::caliber
+::calibur::caliber
 ::cancelled::canceled
 ::candour::candor
 ::capitalise::capitalize
+::captialize::capitalize
+::captialise::capitalize
 ::catalogue::catalog
-::centimetre::centimeter
+::catalouge::catalog
 ::centre::center
+::centimetre::centimeter
 ::characterise::characterize
+::charaterized::characterized
+::charaterised::characterized
+::caracterised::characterized
+::caracterized::characterized
 ::civilise::civilize
+::civilisation::civilization
 ::clamour::clamor
 ::colonise::colonize
 ::colour::color
+::colourless::colorless
 ::cosy::cozy
 ::counsellor::counselor
 ::criticise::criticize
+::critiscize::criticize
+::critize::criticize
+::critisise::criticize
+::critisize::criticize
+::critize::criticize
+::critized::criticized
+::decimetre::decimeter
 ::defence::defense
 ::demeanour::demeanor
+::demenor::demeanor
+::damenor::demeanor
+::damenour::demeanor
+::demenour::demeanor
 ::dialogue::dialog
+::dialouge::dialog
 ::diarrhoea::diarrhea
 ::distil::distill
 ::dramatise::dramatize
 ::draught::draft 
 ::emphasise::emphasize
 ::endeavour::endeavor
+::endevors::endeavors
+::endeaver::endeavor
+::endevor::endeavor
+::endevour::endeavor
+::endevours::endeavors
 ::enrol::enroll
+::enrole::enroll
+::inroll::enroll
 ::enthral::enthrall
 ::epilogue::epilog
 ::equalise::equalize
@@ -8732,8 +8587,11 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::flavour::flavor
 ::foetus::fetus
 ::fuelled::fueled
+::fulled::fueled
 ::fuelling::fueling
 ::fulfil::fulfill
+::fullfil::fulfill
+::fullfill::fulfill
 ::furore::furor
 ::glamour::glamor
 ::grey::gray
@@ -8741,24 +8599,47 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::gybe::jibe
 ::gynaecology::gynecology
 ::haemorrhage::hemorrhage
+::haemorrage::hemorrhage
 ::harbour::harbor
+::habor::harbor
+::habour::harbor
 ::honour::honor
+::hounour::honor
 ::humour::humor
+::humer::humor
 ::instil::instill
 ::jeweller::jeweler
-::jewellery::jewelry or jewelery
+::jewler::jeweler
+::jewelry::jewelery
+::jewlery::jewelery
+::jewlrey::jewelery
+::jewllery::jewelery
+::jewellery::jewelery
+; Borth jewelry and jewelery in Ameircan are correct. In this case I've just chosen one. 
 ::judgement::judgment
+::jugment::judgment
 ::kilometre::kilometer
+::killometer::kilometer
+::killometre::kilometer
 ::labour::labor
 ::leukaemia::leukemia
+::luekemia::leukemia
+::lukemia::leukemia
 ::levelled::leveled
+::licence::license
 ::libelled::libeled
 ::liquorice::licorice
 ::litre::liter
 ::louvre::louver
 ::lustre::luster
 ::manoeuvre::maneuver
-::manoeuvre::maneuver
+::maneover::maneuver
+::manuver::maneuver
+::manouver::maneuver
+::manuever::maneuver
+::maneovre::maneuver
+::manouvers::maneuvres
+::manuevers::maneuvres
 ::marvellous::marvelous
 ::meagre::meager
 ::mementoes::mementos
@@ -8771,12 +8652,29 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::moult ::molt
 ::moustache::mustache
 ::naturalise::naturalize
-::neighbour::neighbor
+:*:neighbour::neighbor
+::nieghbor::neighbor
+::nieghbour::neighbor
+::neigbor::neighbor
+::neigbour::neighbor
+::neighboor::neighbor
+::nieghborhood::neighborhood
+::neighborhood::neighborhood
+::neigbourhood::neighborhood
+::neigbouring::neighboring
+::neigbours::neighbors
 ::nought::naught
 ::odour::odor
 ::oestrogen::estrogen
 ::offence::offense
 ::organise::organize
+::orgainise::organize
+::orginise::organize
+::orgainize::organize
+::orginize::organize
+::organised::organized
+::orginized::organized
+::orginised::organized
 ::paediatric::pediatric
 ::palaeontology::paleontology
 ::panelled::paneled
@@ -8784,25 +8682,48 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::phial::vial
 ::plough::plow
 ::popularise::popularize
+::practise::practice 
 ::pretence::pretense
 ::programme::program
+::programe::program
 ::prologue::prolog
 ::pyjamas::pajamas
 ::quarrelling::quarreling
 ::rancour::rancor
 ::realise::realize
+::relize::realize
+::relise::realize
+::relized::realized
+::relised::realized
 ::recognise::recognize
+::recogise::recognize
+::recogize::recognize
+::recongize::recognize
+::recongise::recognize
+::reconize::recognize
+::reconise::recognize
+::reconized::recognized
+::reconised::recognized
+::remodelling::remodeling
 ::revelled::reveled
 ::rigour::rigor
+::rigeur::rigor
 ::rumour::rumor
+::rummor::rumor
+::rumours::rumors
+::rumers::rumors
 ::sabre::saber
 ::satirise::satirize
+::satarize::satirize
+::satarise::satirize
 ::saviour::savior
 ::savour::savor
 ::savoury::savory
 ::sceptic::skeptic
 ::sceptre::scepter
 ::skilful::skillful
+::skilfull::skillful
+::skillfull::skillful
 ::smoulder::smolder
 ::sombre::somber
 ::spectre::specter
@@ -8820,6 +8741,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vapour::vapor
 ::vice::vise
 ::vigour::vigor
+::vigeur::vigor
 ::whisky::whiskey
 ::wilful::willful
 ::woollen::woolen
@@ -8858,71 +8780,121 @@ advertise
 ::aging::ageing
 ::aluminum::aluminium
 ::amphitheater::amphitheatre
+::ampitheatre::amphitheatre
 ::analog::analogue
-::analyse::analyze
+::analyze::analyse
 ::anemia::anaemia
 ::appall::appal
-::appetiser::appetizer
+::appetizer::appetiser
 ::armor::armour
 ::armory::armoury
-::authorise::authorize
+::authorize::authorise
 ::ax::axe
 ::behavior::behaviour
+::behavour::behaviour
 ::caliber::calibre
+::calibur::calibre
 ::canceled::cancelled
 ::candor::candour
-::capitalise::capitalize
+::capitalize::capitalise
+::captialize::capitalise
+::captialise::capitalise
 ::catalog::catalogue
+::catalouge::catalogue
 ::center::centre
 ::centimeter::centimetre
 ::cesarean::caesarean
-::characterise::characterize
-::civilise::civilize
+::characterize::characterise
+::charaterized::characterised
+::charaterised::characterised
+::caracterised::characterised
+::caracterized::characterised
+::civilize::civilise
+::civilization::civilisation
 ::clamor::clamour
-::colonise::colonize
+::colonize::colonise
 ::color::colour
+::colorless::colourless
 ::counselor::counsellor
 ::cozy::cosy
-::criticise::criticize
+::criticize::criticise
+::critiscise::criticise
+::critise::criticise
+::critisise::criticise
+::critisize::criticise
+::critize::criticise
+::critised::criticised
+::decimeter::decimetre
 ::defense::defence
 ::demeanor::demeanour
+::demenor::demeanour
+::damenor::demeanour
+::damenour::demeanour
+::demenour::demeanour
 ::dialog::dialogue
+::dialouge::dialogue
 ::diarrhea::diarrhoea
 ::distill::distil
 ::draft ::draught
-::dramatise::dramatize
-::emphasise::emphasize
+::dramatize::dramatise
+::emphasize::emphasise
 ::endeavor::endeavour
+::endevors::endeavours
+::endeaver::endeavour
+::endevor::endeavour
+::endevour::endeavour
+::endevours::endeavours
 ::enroll::enrol
+::enrole::enrol
+::inroll::enrol
 ::enthrall::enthral
 ::epilog::epilogue
 ::equaled::equalled
-::equalise::equalize
+::equalize::equalise
 ::estrogen::oestrogen
 ::favorite::favourite
 ::fetus::foetus
 ::fiber::fibre
 ::flavor::flavour
 ::fueled::fuelled
+::fulled::fuelled
 ::fueling::fuelling
 ::fulfill::fulfil
+::fufill::fulfil
+::fullfil::fulfil
+::fullfill::fulfil
 ::furor::furore
 ::glamor::glamour
 ::gray::grey
 ::groveling::grovelling
 ::gynecology::gynaecology
 ::harbor::harbour
+::habor::harbour
+::habour::harbour
 ::hemorrhage::haemorrhage
+::haemorrage::haemorrhage
 ::honor::honour
+::hounour::honour
 ::humor::humour
+::humer::humour
 ::instill::instil
 ::jeweler::jeweller
-::jewelry or jewelery::jewellery
+::jewler::jeweller
+::jewelry::jewellery
+::jewlery::jewellery
+::jewlrey::jewellery
+::jewelery::jewellery
+::jewllery::jewellery
 ::jibe::gybe
 ::judgment::judgement
+::jugment::judgement
 ::kilometer::kilometre
+::killometer::kilometre
+::killometre::kilometre
 ::labor::labour
 ::leukemia::leukaemia
+::luekemia::leukaemia
+::lukemia::leukaemia
 ::leveled::levelled
 ::libeled::libelled
 ::licorice::liquorice
@@ -8930,66 +8902,112 @@ advertise
 ::louver::louvre
 ::luster::lustre
 ::maneuver::manoeuvre
-::maneuver::manoeuvre
+::maneover::manoeuvre
+::manuver::manoeuvre
+::manouver::manoeuvre
+::manuever::manoeuvre
+::maneovre::manoeuvre
+::manouvers::manoeuvres
+::manuevers::manoeuvres
 ::marvelous::marvellous
 ::meager::meagre
 ::mementos::mementoes
 ::meter::metre
 ::millimeter::millimetre
-::mobilise::mobilize
+::mobilize::mobilise
 ::modeling::modelling
 ::mold::mould
 ::molt::moult 
 ::monolog::monologue
 ::mustache::moustache
-::naturalise::naturalize
+::naturalize::naturalise
 ::naught::nought
-::neighbor::neighbour
+:*:neighbor::neighbour
+::nieghbor::neighbour
+::nieghbour::neighbour
+::neigbor::neighbour
+::neigbour::neighbour
+::neighboor::neighbour
+::nieghborhood::neighbourhood
+::neighborhood::neighbourhood
+::neigbourhood::neighbourhood
+::neigbouring::neighbouring
+::neigbours::neighbours
 ::odor::odour
 ::offense::offence
-::organise::organize
+::organize::organise
+::orgainise::organise
+::orginise::organise
+::orgainize::organise
+::orginize::organise
+::organized::organised
+::orginized::organised
+::orginised::organised
 ::pajamas::pyjamas
 ::paleontology::palaeontology
 ::paneled::panelled
-::paralyse::paralyze
+::paralyze::paralyse
 ::pediatric::paediatric
 ::plow::plough
-::popularise::popularize
+::popularize::popularise
 ::pretense::pretence
 ::program::programme
+::programe::programme
 ::prolog::prologue
 ::quarreling::quarrelling
 ::rancor::rancour
-::realise::realize
-::recognise::recognize
+::realize::realise
+::relize::realise
+::relise::realise
+::relized::realised
+::relised::realised
+::recognize::recognise
+::recogise::recognise
+::recogize::recognise
+::recongize::recognise
+::recongise::recognise
+::reconize::recognise
+::reconise::recognise
+::reconized::recognised
+::reconised::recognised
+::remodeling::remodelling
 ::reveled::revelled
 ::rigor::rigour
+::rigeur::rigour
 ::rumor::rumour
+::rummor::rumour
+::rumors::rumours
+::rumers::rumours
 ::saber::sabre
-::satirise::satirize
+::satirize::satirise
+::satarize::satirise
+::satarise::satirise
 ::savior::saviour
 ::savor::savour
 ::savory::savoury
 ::scepter::sceptre
 ::skeptic::sceptic
 ::skillful::skilful
+::skilfull::skilful
+::skillfull::skilful
 ::smolder::smoulder
 ::somber::sombre
 ::specter::spectre
 ::splendor::splendour
-::standardise::standardize
+::standardize::standardise
 ::sulfate::sulphate
 ::sulfide::sulphide
 ::sulfur::sulphur
-::symbolise::symbolize
+::symbolize::symbolise
 ::theater::theatre
 ::tire::tyre
 ::travelog::travelogue
 ::valor::valour
 ::vapor::vapour
-::vaporise::vaporize
+::vaporize::vaporise
 ::vial::phial
 ::vigor::vigour
+::vigeur::vigour
 ::vise::vice
 ::whiskey::whisky
 ::willful::wilful
@@ -9152,9 +9170,6 @@ advertise
 ::lonly::lonely, only
 ::maked::marked, made
 ::managable::manageable, manageably
-::manoeuver::maneuver ; Commonwealth vs US?
-::manouver::maneuver, manoeuvre
-::manouver::manoeuvre ; Commonwealth vs US?
 ::manouverability::maneuverability, manoeuvrability, manoeuverability
 ::manouverable::maneuverable, manoeuvrable
 ::manouvers::maneuvers, manoeuvres
