@@ -8775,7 +8775,7 @@ advertise
 ; Uncomment (remove the trailing /* and ending */) below to use this set of corrections.
 ; (Not yet removed any duplications in the main list nor added any common misspellings for each word)
 ;------------------------------------------------------------------------------
-/*
+
 ::acknowledgment::acknowledgement
 ::aging::ageing
 ::aluminum::aluminium
@@ -9012,7 +9012,7 @@ advertise
 ::whiskey::whisky
 ::willful::wilful
 ::woolen::woollen
-*/
+
 
 ;------------------------------------------------------------------------------
 ; Ambiguous entries.  Where desired, pick the one that's best for you, edit,
