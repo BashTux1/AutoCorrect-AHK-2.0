@@ -6,7 +6,7 @@
 ;
 ;------------------------------------------------------------------------------
 ; CHANGELOG:
-; 
+;
 ;
 ; 2020-11-05 and after:  See readme.md
 ;
@@ -17,7 +17,7 @@
 ; Feb 28 2007: Added other common misspellings based on MS Word AutoCorrect.
 ;              Added optional auto-correction of 2 consecutive capital letters.
 ; Sep 24 2006: Initial release by Jim Biancolo (http://www.biancolo.com)
-; 
+;
 ; INTRODUCTION
 ;
 ; This is an AutoHotKey script that implements AutoCorrect against several
@@ -79,7 +79,6 @@
 #NoEnv ; For security
 #SingleInstance force
 
-
 ;------------------------------------------------------------------------------
 ; AUto-COrrect TWo COnsecutive CApitals.
 ; Disabled by default to prevent unwanted corrections such as IfEqual->Ifequal.
@@ -100,7 +99,6 @@ Hoty:
         SendInput % "{Left}{BS}+" . SubStr(A_PriorHotKey,3,1) . "{Right}"
 Return
 */
-
 
 ;------------------------------------------------------------------------------
 ; Win+H to enter misspelling correction.  It will be added to this script.
@@ -152,7 +150,6 @@ SetTimer, MoveCaret, Off
 return
 
 #Hotstring R  ; Set the default to be "raw mode" (might not actually be relied upon by anything yet).
-
 
 ;------------------------------------------------------------------------------
 ; Fix for -ign instead of -ing.
@@ -206,7 +203,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 #Hotstring B  ; Turn back on automatic backspacing for all subsequent hotstrings.
 :?:ign::ing
 
-
 ;------------------------------------------------------------------------------
 ; Word endings
 ;------------------------------------------------------------------------------
@@ -226,7 +222,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 :?:sice::sive
 ;:?:t eh:: the   ; converts "but eh" to "bu the"
 :?:t hem:: them
-
 
 ;------------------------------------------------------------------------------
 ; Word beginnings
@@ -315,14 +310,12 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 :*:superceed::supersede
 :*:weild::wield
 
-
 ;------------------------------------------------------------------------------
 ; Word middles
 ;------------------------------------------------------------------------------
 
 :?*:compatab::compatib  ; Covers incompat* and compat*
 :?*:catagor::categor  ; Covers subcatagories and catagories.
-
 
 ;------------------------------------------------------------------------------
 ; Accented English words, from, amongst others,
@@ -620,7 +613,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vis-a-vis::vis-à-vis
 ::voila::voilà
 
-
 ;------------------------------------------------------------------------------
 ; Common Misspellings - the main list
 ;------------------------------------------------------------------------------
@@ -795,9 +787,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::acutally::actually
 ::actualyl::actually
 ::ad nauseum::ad nauseam
-::adaption ::adaptation
 ::adaption::adaptation
-::adaptions ::adaptations
+::adaption::adaptation
+::adaptions::adaptations
 ::adaptions::adaptations
 ::addng::adding
 ::addittion::addition
@@ -934,8 +926,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::agricultue::agriculture
 ::agriculure::agriculture
 ::agricuture::agriculture
-::agriculturalist ::agriculturist
-::agriculturalists ::agriculturists
+::agriculturalist::agriculturist
+::agriculturalists::agriculturists
 ::aheda::ahead
 ::airborn::airborne
 ::airbourne::airborne
@@ -961,7 +953,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::allign::align
 ::allignment::alignment
 ::allright::all right
-::alright ::all right
+::alright::all right
 ::all the itme::all the time
 ::aledge::allege
 ::alege::allege
@@ -1021,7 +1013,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::althought::although
 ::altough::although
 ::athough::although
-::altho ::although
+::altho::although
 ::allthough::although
 ::altho::although
 ::altogehter::altogether
@@ -1043,7 +1035,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::ammass::amass
 ::amatuer::amateur
 ::amature::amateur
-::ambience ::ambiance
+::ambience::ambiance
 ::ambiant::ambient
 ::ambigious::ambiguous
 ::amerliorate::ameliorate
@@ -1062,7 +1054,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::amoung::among
 ::amung::among
 ::amonst::among
-::amongst ::among
+::amongst::among
 ::amoungst::amongst
 ::amonut::amount
 ::amoutn::amount
@@ -1103,7 +1095,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::androgenous::androgynous
 ::androgeny::androgyny
 ::ankel::ankle
-::annexe ::annex
+::annexe::annex
 ::anihilate::annihilate
 ::anihilation::annihilation
 ::aniversary::anniversary
@@ -1261,7 +1253,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::archtype::arch-type
 ::Artic Circle::Arctic Circle
 ::Artic Ocean::Arctic Ocean
-::ardor ::ardour
+::ardor::ardour
 ::argubly::arguably
 ::argueably::arguably
 ::arguebly::arguably
@@ -1296,7 +1288,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::artice::article
 ::articel::article
 ::artilce::article
-::artefact ::artifact
+::artefact::artifact
 ::artifical::artificial
 ::artifically::artificially
 ::artificialy::artificially
@@ -1304,7 +1296,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::asthe::as the
 ::aswell::as well
 ::asend::ascend
-::ascendancy ::ascendency
+::ascendancy::ascendency
 ::acertain::ascertain
 ::asetic::ascetic
 ::aisian::Asian
@@ -1506,7 +1498,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::beared::bared
 ::bearly::barely
 ::Barnsely::Barnsley
-::barron ::baron
+::barron::baron
 ::baised::based
 ::basiclaly::basically
 ::basicaly::basically
@@ -1577,7 +1569,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::begginings::beginnings
 ::beigns::begins
 ::beggins::begins
-::behove ::behoove
+::behove::behoove
 ::Bejing::Beijing
 ::benig::being
 ::beign::being
@@ -1648,7 +1640,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::blaimed::blamed
 ::blatent::blatant
 ::bleeded::bled
-::blest ::blessed
+::blest::blessed
 ::blessure::blessing
 ::blowed::blew
 ::Blitzkreig::Blitzkrieg
@@ -1804,8 +1796,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::calilng::calling
 ::callipigian::callipygian
 ::calous::callus
-::calloused ::callused
-::callouses ::calluses
+::calloused::callused
+::callouses::calluses
 ::calfs::calves
 ::cameraderie::camaraderie
 ::camraderie::camaraderie
@@ -2012,7 +2004,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::chauffer::chauffeur
 ::chcek::check
 ::chekc::check
-::chequer ::checker
+::chequer::checker
 ::chemcial::chemical
 ::chemcially::chemically
 ::chemicaly::chemically
@@ -2124,7 +2116,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::collonade::colonnade
 ::collony::colony
 ::collosal::colossal
-::coloration ::colouration
+::coloration::colouration
 ::collum::column
 ::collumn::column
 ::colum::column
@@ -2738,10 +2730,10 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::derogitory::derogatory
 ::decend::descend
 ::desend::descend
-::descendent ::descendant
+::descendent::descendant
 ::decendant::descendant
 ::decendent::descendant
-::descendents ::descendants
+::descendents::descendants
 ::decendants::descendants
 ::decendents::descendants
 ::descendands::descendants
@@ -3242,10 +3234,10 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::enroute::en route
 ::inact::enact
 ::enameld::enamelled
-::enamoured ::enamored
+::enamoured::enamored
 ::encypher::encipher
-::inclose ::enclose
-::inclosed ::enclosed
+::inclose::enclose
+::inclosed::enclosed
 ::encouter::encounter
 ::encouraing::encouraging
 ::encryptiion::encryption
@@ -3280,7 +3272,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::enought::enough
 ::inquire::enquire
 ::inquiry::enquiry
-::enrollment ::enrolment
+::enrollment::enrolment
 ::enrolement::enrolment
 ::ensconsed::ensconced
 ::insue::ensue
@@ -3861,7 +3853,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::garrision::garrison
 ::garrisson::garrison
 ::garnison::garrison
-::gasses ::gases
+::gasses::gases
 ::guage::gauge
 ::gived::gave
 ::geneological::genealogical
@@ -4112,12 +4104,12 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::heridity::heredity
 ::hertiage::heritage
 ::heroe::hero
-::heros ::heroes
+::heros::heroes
 ::heros::heroes
 ::her's::hers
 ::hertzs::hertz
 ::hesistant::hesitant
-::heterogenous ::heterogeneous
+::heterogenous::heterogeneous
 ::heterogenous::heterogeneous
 ::hayday::heyday
 ::hidding::hiding
@@ -4177,7 +4169,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::honory::honorary
 ::honourary::honorary
 ::honourific::honorific
-::honorable ::honourable
+::honorable::honourable
 ::honarable::honourable
 ::honorable::honourable
 ::hopefull::hopeful
@@ -6376,7 +6368,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::perview::purview
 ::put's::puts
 ::puting::putting
-::qv ::q.v.
+::qv::q.v.
 ::quadraped::quadruped
 ::quadriped::quadruped
 ::quadrapedal::quadrupedal
@@ -7201,7 +7193,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::speciallized::specialised
 ::specialites::specialities
 ::specialtes::specialities
-::specialty ::speciality
+::specialty::speciality
 ::specialy::specially
 ::speices::species
 ::specifical::specific
@@ -7228,7 +7220,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::spermatazoa::spermatozoa
 ::spermatazoon::spermatozoon
 ::spermatozoan::spermatozoon
-::spilled ::spilt
+::spilled::spilt
 ::sprial::spiral
 ::spiraling::spiralling
 ::spritual::spiritual
@@ -7644,9 +7636,9 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::talkign::talking
 ::tamborine::tambourine
 ::tandum::tandem
-::targetted ::targeted
 ::targetted::targeted
-::targetting ::targeting
+::targetted::targeted
+::targetting::targeting
 ::targetting::targeting
 ::tarrif::tariff
 ::tarriff::tariff
@@ -7771,7 +7763,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thne::then
 ::hten::then
 ::thn::then
-::theologist ::theologian
+::theologist::theologian
 ::theologan::theologian
 ::theroretical::theoretical
 ::theorize::theorise
@@ -8145,7 +8137,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::unsuprisingly::unsurprisingly
 ::unsuprizingly::unsurprisingly
 ::unsurprizingly::unsurprisingly
-::untied ::untied
+::untied::untied
 ::untill::until
 ::untracable::untraceable
 ::untranslateable::untranslatable
@@ -8169,7 +8161,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::apon::upon
 ::upsetted::upset
 ::urbanize::urbanise
-::useable ::usable
+::useable::usable
 ::useage::usage
 ::uise::use
 ::unsed::used
@@ -8375,7 +8367,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::wendsay::Wednesday
 ::wendsday::Wednesday
 ::wensday::Wednesday
-::wensday::Wednesday
 ::weekened::weekend
 ::wiegh::weigh
 ::wierd::weird
@@ -8499,7 +8490,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::writed::wrote
 ::wroet::wrote
 ::X-Box::Xbox
-::XBox ::Xbox
+::XBox::Xbox
 ::x-Box::Xbox
 ::xenophoby::xenophobia
 ::yaht::yacht
@@ -8521,13 +8512,13 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Yorkhire::Yorkshire
 ::ytou::you
 ::yuo::you
-::u ::you
+::u::you
 ::yoiu::you
 ::youare::you are
 ::younge::young
 ::yonger::younger
 ::yuonger::younger
-::ur ::your
+::ur::your
 ::yoru::your
 ::yuor::your
 ;::you're own::your own ;  ; Conflicts with "you're" in Contractions section.
@@ -8539,7 +8530,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::sionist::Zionist
 ::Sionists::Zionists
 ::sionists::Zionists
-
 
 ;-------------------------------------------------------------------------------
 ; Contractions
@@ -8681,12 +8671,11 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::your their::you're their
 ::youve::you've
 
-
 ;------------------------------------------------------------------------------
 ; American English
 ;
 ; Uncomment (remove the trailing /* and ending */) below to use this list of corrections.
-; Make sure you comment out (ADD trailing /* and ending */) the "British English" section. 
+; Make sure you comment out (ADD trailing /* and ending */) the "British English" section.
 ; You should only have either British English or American English enabled, NOT both, so that no conflicts occur)
 ;------------------------------------------------------------------------------
 /*
@@ -8755,7 +8744,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::diarrhoea::diarrhea
 ::distil::distill
 ::dramatise::dramatize
-::draught::draft 
+::draught::draft
 ::emphasise::emphasize
 ::endeavour::endeavor
 ::endevors::endeavors
@@ -8803,7 +8792,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::jewlrey::jewelery
 ::jewllery::jewelery
 ::jewellery::jewelery
-; Borth jewelry and jewelery in Ameircan are correct. In this case I've just chosen one. 
+; Borth jewelry and jewelery in Ameircan are correct. In this case I've just chosen one.
 ::judgement::judgment
 ::jugment::judgment
 ::kilometre::kilometer
@@ -8837,7 +8826,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::modelling::modeling
 ::monologue::monolog
 ::mould::mold
-::moult ::molt
+::moult::molt
 ::moustache::mustache
 ::naturalise::naturalize
 :*:neighbour::neighbor
@@ -8870,7 +8859,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::phial::vial
 ::plough::plow
 ::popularise::popularize
-::practise::practice 
+::practise::practice
 ::pretence::pretense
 ::programme::program
 ::programe::program
@@ -8944,7 +8933,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 licence (noun - British) (I've lost my driving licence.)
 license (verb - British) (He is licensed to drive large trucks)
 
-practice (noun - British) 
+practice (noun - British)
 practise (verb - British) (I practise the piano every day)
 */
 
@@ -9032,7 +9021,7 @@ advertise
 ::dialouge::dialogue
 ::diarrhea::diarrhoea
 ::distill::distil
-::draft ::draught
+::draft::draught
 ::dramatize::dramatise
 ::emphasize::emphasise
 ::endeavor::endeavour
@@ -9114,7 +9103,7 @@ advertise
 ::mobilize::mobilise
 ::modeling::modelling
 ::mold::mould
-::molt::moult 
+::molt::moult
 ::monolog::monologue
 ::mustache::moustache
 ::naturalize::naturalise
@@ -9211,7 +9200,6 @@ advertise
 ::whiskey::whisky
 ::willful::wilful
 ::woolen::woollen
-
 
 ;------------------------------------------------------------------------------
 ; Ambiguous entries.  Where desired, pick the one that's best for you, edit,
@@ -9387,7 +9375,7 @@ advertise
 ::neigbouring::neighbouring, neighboring
 ::neigbours::neighbours, neighbors
 ::nto:: not ; Replaced with case sensitive for NTO acronym.
-::od::do, of			
+::od::do, of
 ::oging::going, ogling
 ::ole::olé
 ::onot::note, not
@@ -9452,7 +9440,7 @@ advertise
 ::thast::that, that's
 ::theather::theater, theatre
 ::ther::there, their, the
-::thse::these, those					
+::thse::these, those
 ::thikning::thinking, thickening
 ::throught::thought, through, throughout
 ::tiem::time, Tim
@@ -9509,19 +9497,19 @@ advertise
 ; Common Acronyms to Capitalise
 ; Move the ones you want in effect, above the commented section (/* .. */)
 ;-------------------------------------------------------------------------------
-; NOTE, care should be taken when using any of these, as some of these could clash with command line entries (e.g.	"cd" in Linux to change directory)
+; NOTE, care should be taken when using any of these, as some of these could clash with command line entries (e.g. "cd" in Linux to change directory)
 
 ::usb::USB ; Universal Serial Bus
 
 /*
 ::bios::BIOS ; Basic Input Output System
-::cd::CD ; Compact Disc 
+::cd::CD ; Compact Disc
 ::dhcp::DHCP ; Dynamic Host Configuration Protocol
 ::dns::DNS ; Domain Name System
 ::hd::HD ; High Definition
 ::ip::IP ; Internet Protocol
 ::nic::NIC ; Network Interface Card
-::ram::RAM ; Random Access Memory 
+::ram::RAM ; Random Access Memory
 ::rpg::RPG ; Role Playing Game
 ::tcp:TCP ; Tranmission Control Protocol
 */
