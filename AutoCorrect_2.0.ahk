@@ -58,16 +58,26 @@
 ;   Fix for -ign instead of -ing
 ;   Word endings
 ;   Word beginnings
+;	Word middles
 ;   Accented English words
 ;   Common Misspellings - the main list
+;	Contractions
+;	American English
+;	Ambiguous words used in British English
+;	Exceptions, these are used in both countries
+;	British English
 ;   Ambiguous entries - commented out
+;	Capitalise dates
+;	Anything below added by the user via the Win+H hotkey
 ;------------------------------------------------------------------------------
 
 ;------------------------------------------------------------------------------
 ; Settings
 ;------------------------------------------------------------------------------
+
 #NoEnv ; For security
 #SingleInstance force
+
 
 ;------------------------------------------------------------------------------
 ; AUto-COrrect TWo COnsecutive CApitals.
@@ -94,6 +104,7 @@ Return
 ;------------------------------------------------------------------------------
 ; Win+H to enter misspelling correction.  It will be added to this script.
 ;------------------------------------------------------------------------------
+
 #h::
 ; Get the selected text. The clipboard is used instead of "ControlGet Selected"
 ; as it works in more editors and word processors, java apps, etc. Save the
@@ -147,9 +158,10 @@ return
 ; Words to exclude: (could probably do this by return without rewrite)
 ; From: http://www.morewords.com/e nds-with/gn/
 ;------------------------------------------------------------------------------
+
 #Hotstring B0  ; Turns off automatic backspacing for the following hotstrings.
 ; Can be suffix exceptions, too, but should correct "-aling" without correcting "-align".
-;																						 
+
 ::align::
 ::antiforeign::
 ::arraign::
@@ -197,6 +209,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ;------------------------------------------------------------------------------
 ; Word endings
 ;------------------------------------------------------------------------------
+
 :?:bilites::bilities
 :?:bilties::bilities
 :?:blities::bilities
@@ -217,6 +230,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ;------------------------------------------------------------------------------
 ; Word beginnings
 ;------------------------------------------------------------------------------
+
 :*:abondon::abandon
 :*:abreviat::abbreviat
 :*:accomadat::accommodat
@@ -304,6 +318,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ;------------------------------------------------------------------------------
 ; Word middles
 ;------------------------------------------------------------------------------
+
 :?*:compatab::compatib  ; Covers incompat* and compat*
 :?*:catagor::categor  ; Covers subcatagories and catagories.
 
@@ -315,6 +330,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ; those that may often not be accented either from a clash with an unaccented
 ; word (resume), or because the unaccented version is now common (cafe).
 ;------------------------------------------------------------------------------
+
 ::aesop::Æsop
 ::a bas::à bas
 ::a la::à la
@@ -603,9 +619,11 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::vis-a-vis::vis-à-vis
 ::voila::voilà
 
+
 ;------------------------------------------------------------------------------
 ; Common Misspellings - the main list
 ;------------------------------------------------------------------------------
+
 ::htp:::http:
 ::http:\\::http://
 ::httpL::http:
@@ -8497,6 +8515,147 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::sionists::Zionists
 
 
+;-------------------------------------------------------------------------------
+; Contractions
+;-------------------------------------------------------------------------------
+
+::aint::ain't
+::arent::aren't
+::arne't::aren't
+::are'nt::aren't
+::arn't::aren't
+::cant'::can't
+::cant::can't
+::cnat::can't
+::can't of::can't have
+::cmon::c'mon
+::coudlnt::couldn't
+::coulnd't::couldn't
+::coulndt::couldn't
+::coudn't::couldn't
+::coudln't::couldn't
+::couldnt::couldn't
+::couldve::could've
+::didnt::didn't
+::did'nt::didn't
+::didnt::didn't
+::didint::didn't
+::does’t::doesn't
+::does't::doesn't
+::doesnt::doesn't
+::doesnt'::doesn't
+::does'nt::doesn't
+::dosen't::doesn't
+::doens't::doesn't
+::dosn't::doesn't
+::dont::don't
+::odn't::don't
+::odnt::don't
+::do'nt::don't
+::dont::don't
+::don't no::don't know
+::hadnt::hadn't
+::had'nt::hadn't
+::hadnt::hadn't
+::hasnt::hasn't
+::has'nt::hasn't
+::hasnt::hasn't
+::havent::haven't
+::hed::he'd
+::heres::here's
+::here;s::here's
+::hes::he's
+::howd::how'd
+::hows::how's
+::i;d::I'd
+::i"m::I'm
+::I;m::I'm
+::im::I'm
+::isnt'::isn't
+::isnt::isn't
+::is'nt::isn't
+::itll::it'll
+::ive::I've
+::mightnt::mightn't
+::mightve::might've
+::mustnt::mustn't
+::oughtnt::oughtn't
+::shant::shan't
+::shes::she's
+::sholdnt::shouldn't
+::shoudlnt::shouldn't
+::shouldnt::shouldn't
+::shuoldn't::shouldn't
+::sohldn't::shouldn't
+::sohuldn't::shouldn't
+::sohldnt::shouldn't
+::should'nt::shouldn't
+::shoudln::shouldn't
+::shoudln't::shouldn't
+::shouldent::shouldn't
+::shouldve::should've
+::thats::that's
+::thtas::that's
+::thast::that's
+::theres::there's
+::theyd::they'd
+::theyll::they'll
+::they;l::they'll
+::theyr'e::they're
+::theyre::they're
+::they;r::they're
+::theyve::they've
+::they;v::they've
+:c:Ill::I'll ; only correct upper case Ill, to avoide conflict with ill (I feel ill)
+:c:ti's::it's
+::i'ts::it's
+::its'::it's
+::its's::it's
+::it;s::it's
+::its a::it's a
+::it snot::it's not
+::it' snot::it's not
+::iits the::it's the
+::its the::it's the
+::was'nt::wasn't
+::wasnt::wasn't
+::we;d::we'd
+::w'ere::we're
+::weere::we're
+::wasnt::wasn't
+::werent::weren't
+::were'nt::weren't
+::wern't::weren't
+::weve::we've
+::whats::what's
+::what;s::what's
+::whos::who's
+::who;s::who's
+::whyd::why'd
+::wont::won't
+::wo'nt::won't
+::woudlnt::wouldn't
+::wouldnt::wouldn't
+::would'nt::wouldn't
+::woudln't::wouldn't
+::wouldve::would've
+::yall::y'all
+::ya'll::y'all
+::youd::you'd
+::you;d::you'd
+::youll::you'll
+::youre::you're
+::your a::you're a
+::your an::you're an
+::your her::you're her
+::your here::you're here
+::your his::you're his
+::your my::you're my
+::your the::you're the
+::your their::you're their
+::youve::you've
+
+
 ;------------------------------------------------------------------------------
 ; American English
 ;
@@ -8775,7 +8934,6 @@ advise
 surprise
 advertise
 */
-
 
 ;------------------------------------------------------------------------------
 ; British English (uncommented by default)
@@ -9297,8 +9455,9 @@ advertise
 */
 
 ;-------------------------------------------------------------------------------
-;  Capitalise dates
+; Capitalise dates
 ;-------------------------------------------------------------------------------
+
 ::monday::Monday
 ::tuesday::Tuesday
 ::wednesday::Wednesday
@@ -9319,145 +9478,6 @@ advertise
 ::october::October
 ::november::November
 ::december::December
-
-;-------------------------------------------------------------------------------
-; Contractions
-;-------------------------------------------------------------------------------
-::aint::ain't
-::arent::aren't
-::arne't::aren't
-::are'nt::aren't
-::arn't::aren't
-::cant'::can't
-::cant::can't
-::cnat::can't
-::can't of::can't have
-::cmon::c'mon
-::coudlnt::couldn't
-::coulnd't::couldn't
-::coulndt::couldn't
-::coudn't::couldn't
-::coudln't::couldn't
-::couldnt::couldn't
-::couldve::could've
-::didnt::didn't
-::did'nt::didn't
-::didnt::didn't
-::didint::didn't
-::does’t::doesn't
-::does't::doesn't
-::doesnt::doesn't
-::doesnt'::doesn't
-::does'nt::doesn't
-::dosen't::doesn't
-::doens't::doesn't
-::dosn't::doesn't
-::dont::don't
-::odn't::don't
-::odnt::don't
-::do'nt::don't
-::dont::don't
-::don't no::don't know
-::hadnt::hadn't
-::had'nt::hadn't
-::hadnt::hadn't
-::hasnt::hasn't
-::has'nt::hasn't
-::hasnt::hasn't
-::havent::haven't
-::hed::he'd
-::heres::here's
-::here;s::here's
-::hes::he's
-::howd::how'd
-::hows::how's
-::i;d::I'd
-::i"m::I'm
-::I;m::I'm
-::im::I'm
-::isnt'::isn't
-::isnt::isn't
-::is'nt::isn't
-::itll::it'll
-::ive::I've
-::mightnt::mightn't
-::mightve::might've
-::mustnt::mustn't
-::oughtnt::oughtn't
-::shant::shan't
-::shes::she's
-::sholdnt::shouldn't
-::shoudlnt::shouldn't
-::shouldnt::shouldn't
-::shuoldn't::shouldn't
-::sohldn't::shouldn't
-::sohuldn't::shouldn't
-::sohldnt::shouldn't
-::should'nt::shouldn't
-::shoudln::shouldn't
-::shoudln't::shouldn't
-::shouldent::shouldn't
-::shouldve::should've
-::thats::that's
-::thtas::that's
-::thast::that's
-::theres::there's
-::theyd::they'd
-::theyll::they'll
-::they;l::they'll
-::theyr'e::they're
-::theyre::they're
-::they;r::they're
-::theyve::they've
-::they;v::they've
-:c:Ill::I'll ; only correct upper case Ill, to avoide conflict with ill (I feel ill)
-:c:ti's::it's
-::i'ts::it's
-::its'::it's
-::its's::it's
-::it;s::it's
-::its a::it's a
-::it snot::it's not
-::it' snot::it's not
-::iits the::it's the
-::its the::it's the
-::was'nt::wasn't
-::wasnt::wasn't
-::we;d::we'd
-::w'ere::we're
-::weere::we're
-::wasnt::wasn't
-::werent::weren't
-::were'nt::weren't
-::wern't::weren't
-::weve::we've
-::whats::what's
-::what;s::what's
-::whos::who's
-::who;s::who's
-::whyd::why'd
-::wont::won't
-::wo'nt::won't
-::woudlnt::wouldn't
-::wouldnt::wouldn't
-::would'nt::wouldn't
-::woudln't::wouldn't
-::wouldve::would've
-::yall::y'all
-::ya'll::y'all
-::youd::you'd
-::you;d::you'd
-::youll::you'll
-::youre::you're
-::your a::you're a
-::your an::you're an
-::your her::you're her
-::your here::you're here
-::your his::you're his
-::your my::you're my
-::your the::you're the
-::your their::you're their
-::youve::you've
 
 
 ;-------------------------------------------------------------------------------
