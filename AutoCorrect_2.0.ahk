@@ -7827,6 +7827,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::threshhold::threshold
 ::treshold::threshold
 ::thuogh::though
+::thoug::though
 ::tohught::thought
 ::throuhg::through
 ::thru::through
