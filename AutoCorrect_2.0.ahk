@@ -9509,16 +9509,21 @@ advertise
 ; Common Acronyms to Capitalise
 ; Move the ones you want in effect, above the commented section (/* .. */)
 ;-------------------------------------------------------------------------------
+; NOTE, care should be taken when using any of these, as some of these could clash with command line entries (e.g.	"cd" in Linux to change directory)
 
-::usb::USB
+::usb::USB ; Universal Serial Bus
 
 /*
-::bios::BIOS
-::nic::NIC
-::ip::IP
-::tcp:TCP
-::ram::RAM
-::hdd::HDD
+::bios::BIOS ; Basic Input Output System
+::cd::CD ; Compact Disc 
+::dhcp::DHCP ; Dynamic Host Configuration Protocol
+::dns::DNS ; Domain Name System
+::hd::HD ; High Definition
+::ip::IP ; Internet Protocol
+::nic::NIC ; Network Interface Card
+::ram::RAM ; Random Access Memory 
+::rpg::RPG ; Role Playing Game
+::tcp:TCP ; Tranmission Control Protocol
 */
 
 ;-------------------------------------------------------------------------------
