@@ -4,7 +4,8 @@
 
 This is an [AutoHotKey](https://www.autohotkey.com/) script for AutoCorrect.
 
-Original author/creator of the script file, [Jim Biancolo](http://www.biancolo.com/blog/autocorrect/) </br>
+Credits to: </br>
+The original author/creator of the script file, [Jim Biancolo](http://www.biancolo.com/blog/autocorrect/) </br>
 
 My script **AutoCorrect-AHK-2.0** is an amalgamation of the 2007 [AutoHotkey AutoCorrect script](http://www.autohotkey.com/download/AutoCorrect.ahk) as well as [endolith's](https://gist.github.com/endolith/876629) script (as of 2020-11-05) with my customisations and additions. </br>
 
