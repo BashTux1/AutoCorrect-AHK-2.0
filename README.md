@@ -31,3 +31,4 @@ See **American English** commented section within the script with instructions t
 * Copied in, thousands of new words from [Wikipedia's Lists_of_common_misspellings](http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings) 
 * Added **British English** and **American English** sections within the script. </br> Still needs some work (though the bulk is done) to move (American or British) words from the main list, into their respective sections.
 * Added **Common Acronyms to Capitalise** section (Will expand this list over time)
+* Amalgamated missing words of relevance from [Wikipedia's Commonly misspelled English words](https://en.wikipedia.org/wiki/Commonly_misspelled_English_words) (some 60+ words added)
