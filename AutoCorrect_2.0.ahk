@@ -43,6 +43,7 @@
 ;
 ; http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings
 ; http://en.wikipedia.org/wiki/Wikipedia:Typo
+; https://en.wikipedia.org/wiki/Commonly_misspelled_English_words
 ; Microsoft Office autocorrect list
 ; Script by jaco0646 http://www.autohotkey.com/forum/topic8057.html
 ; https://www.spellzone.com/pages/british-american.cfm
