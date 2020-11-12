@@ -9565,8 +9565,9 @@ advertise
 ;-------------------------------------------------------------------------------
 ; Common Acronyms to Capitalise
 ; Move the ones you want in effect, above the commented section (/* .. */)
+; NOTE, care should be taken when making use of any these, as some of these could clash with command line entries (e.g. "cd" in Linux to change directory)
 ;-------------------------------------------------------------------------------
-; NOTE, care should be taken when using any of these, as some of these could clash with command line entries (e.g. "cd" in Linux to change directory)
+; 
 
 ::usb::USB ; Universal Serial Bus
 
