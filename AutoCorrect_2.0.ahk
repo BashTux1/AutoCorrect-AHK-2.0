@@ -2216,6 +2216,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::commiunicating::communicating
 ::communiucating::communicating
 ::communciation::communication
+::communicatoin::communication
 ::comminication::communication
 ::communiation::communication
 ::commuications::communications
@@ -2890,6 +2891,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::differentiatiations::differentiations
 ::dificult::difficult
 ::diffcult::difficult
+::diffuclt::difficult
 ::dificulties::difficulties
 ::diffculties::difficulties
 ::dificulty::difficulty
@@ -4417,6 +4419,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::unconclusive::inconclusive
 ::inconsistancy::inconsistency
 ::inconsistant::inconsistent
+::inteface::interface
 ::unconspicuous::inconspicuous
 ::encorperate::incorporate
 ::encorporate::incorporate
@@ -7503,6 +7506,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::sucessfuly::successfully
 ::successfulyl::successfully
 ::successully::successfully
+::sussefully::successfully
 ::succesion::succession
 ::sucesion::succession
 ::sucession::succession
