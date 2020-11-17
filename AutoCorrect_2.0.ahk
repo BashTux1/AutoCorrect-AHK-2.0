@@ -1283,6 +1283,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::arond::around
 ::aroud::around
 ::arund::around
+::aroudn::around
 ::around ot::around to
 ::arrage::arrange
 ::aranged::arranged
@@ -3584,6 +3585,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Farenheit::Fahrenheit
 ::farenheit::Fahrenheit
 ::faliure::failure
+::failuer::failure
 ::faithfull::faithful
 ::faling::falling
 ::falsley::falsely
@@ -7890,6 +7892,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::thoug::though
 ::tohught::thought
 ::throuhg::through
+::thorugh::through
 ::thru::through
 ::thoughout::throughout
 ::throughtout::throughout
