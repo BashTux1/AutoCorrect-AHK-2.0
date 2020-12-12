@@ -2966,7 +2966,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::diaster::disaster
 ::disasterous::disastrous
 ::disatrous::disastrous
-::disk::disc
 ::decern::discern
 ::diciple::disciple
 ::diciplin::discipline
