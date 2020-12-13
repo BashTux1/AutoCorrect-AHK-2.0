@@ -4565,7 +4565,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::insoluable::insoluble
 ::insperation::inspiration
 ::inpsired::inspired
-::install::instal
 ::instalation::installation
 ::instilation::installation
 ::instaleld::installed
