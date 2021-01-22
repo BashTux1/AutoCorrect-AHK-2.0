@@ -6312,6 +6312,8 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::programable::programmable
 ::programer::programmer
 ::promiss::promise
+::programme::program ; see Exceptions
+::programe::program ; see Exceptions
 ::ptogress::progress
 ::progessed::progressed
 ::prohabition::prohibition
@@ -9018,6 +9020,7 @@ seize
 advise
 surprise
 advertise
+program < used widely to dictate a pc application and thus using the American spelling
 */
 
 ;------------------------------------------------------------------------------
@@ -9207,8 +9210,8 @@ advertise
 ::plow::plough
 ::popularize::popularise
 ::pretense::pretence
-::program::programme
-::programe::programme
+;::program::programme ; See Exceptions
+;::programe::programme ; See Exceptions
 ::prolog::prologue
 ::quarreling::quarrelling
 ::rancor::rancour
