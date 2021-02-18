@@ -8603,146 +8603,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::Sionists::Zionists
 ::sionists::Zionists
 
-;-------------------------------------------------------------------------------
-; Contractions
-;-------------------------------------------------------------------------------
-
-::aint::ain't
-::arent::aren't
-::arne't::aren't
-::are'nt::aren't
-::arn't::aren't
-::cant'::can't
-::cant::can't
-::cnat::can't
-::can't of::can't have
-::cmon::c'mon
-::coudlnt::couldn't
-::coulnd't::couldn't
-::coulndt::couldn't
-::coudn't::couldn't
-::coudln't::couldn't
-::couldnt::couldn't
-::couldve::could've
-::didnt::didn't
-::did'nt::didn't
-::didnt::didn't
-::didint::didn't
-::does’t::doesn't
-::does't::doesn't
-::doesnt::doesn't
-::doesnt'::doesn't
-::does'nt::doesn't
-::dosen't::doesn't
-::doens't::doesn't
-::dosn't::doesn't
-::dont::don't
-::odn't::don't
-::odnt::don't
-::do'nt::don't
-::dont::don't
-::don't no::don't know
-::hadnt::hadn't
-::had'nt::hadn't
-::hadnt::hadn't
-::hasnt::hasn't
-::has'nt::hasn't
-::hasnt::hasn't
-::havent::haven't
-::hed::he'd
-::heres::here's
-::here;s::here's
-::hes::he's
-::howd::how'd
-::hows::how's
-::i;d::I'd
-::i"m::I'm
-::I;m::I'm
-::im::I'm
-::isnt'::isn't
-::isnt::isn't
-::is'nt::isn't
-::itll::it'll
-::ive::I've
-::mightnt::mightn't
-::mightve::might've
-::mustnt::mustn't
-::oughtnt::oughtn't
-::shant::shan't
-::shes::she's
-::sholdnt::shouldn't
-::shoudlnt::shouldn't
-::shouldnt::shouldn't
-::shuoldn't::shouldn't
-::sohldn't::shouldn't
-::sohuldn't::shouldn't
-::sohldnt::shouldn't
-::should'nt::shouldn't
-::shoudln::shouldn't
-::shoudln't::shouldn't
-::shouldent::shouldn't
-::shouldve::should've
-::thats::that's
-::thtas::that's
-::thast::that's
-::theres::there's
-::theyd::they'd
-::theyll::they'll
-::they;l::they'll
-::theyr'e::they're
-::theyre::they're
-::they;r::they're
-::theyve::they've
-::they;v::they've
-:c:Ill::I'll ; only correct upper case Ill, to avoide conflict with ill (I feel ill)
-:c:ti's::it's
-::i'ts::it's
-::its'::it's
-::its's::it's
-::it;s::it's
-::its a::it's a
-::it snot::it's not
-::it' snot::it's not
-::iits the::it's the
-::its the::it's the
-::was'nt::wasn't
-::wasnt::wasn't
-::we;d::we'd
-::w'ere::we're
-::weere::we're
-::wasnt::wasn't
-::werent::weren't
-::were'nt::weren't
-::wern't::weren't
-::weve::we've
-::whats::what's
-::what;s::what's
-::whos::who's
-::who;s::who's
-::whyd::why'd
-::wont::won't
-::wo'nt::won't
-::woudlnt::wouldn't
-::wouldnt::wouldn't
-::would'nt::wouldn't
-::woudln't::wouldn't
-::wouldve::would've
-::yall::y'all
-::ya'll::y'all
-::youd::you'd
-::you;d::you'd
-::youll::you'll
-::youre::you're
-::your a::you're a
-::your an::you're an
-::your her::you're her
-::your here::you're here
-::your his::you're his
-::your my::you're my
-::your the::you're the
-::your their::you're their
-::youve::you've
-
 ;------------------------------------------------------------------------------
 ; American English
 ;
@@ -9273,6 +9133,146 @@ program < used widely to dictate a pc application and thus using the American sp
 ::whiskey::whisky
 ::willful::wilful
 ::woolen::woollen
+
+;-------------------------------------------------------------------------------
+; Contractions
+;-------------------------------------------------------------------------------
+
+::aint::ain't
+::arent::aren't
+::arne't::aren't
+::are'nt::aren't
+::arn't::aren't
+::cant'::can't
+::cant::can't
+::cnat::can't
+::can't of::can't have
+::cmon::c'mon
+::coudlnt::couldn't
+::coulnd't::couldn't
+::coulndt::couldn't
+::coudn't::couldn't
+::coudln't::couldn't
+::couldnt::couldn't
+::couldve::could've
+::didnt::didn't
+::did'nt::didn't
+::didnt::didn't
+::didint::didn't
+::does’t::doesn't
+::does't::doesn't
+::doesnt::doesn't
+::doesnt'::doesn't
+::does'nt::doesn't
+::dosen't::doesn't
+::doens't::doesn't
+::dosn't::doesn't
+::dont::don't
+::odn't::don't
+::odnt::don't
+::do'nt::don't
+::dont::don't
+::don't no::don't know
+::hadnt::hadn't
+::had'nt::hadn't
+::hadnt::hadn't
+::hasnt::hasn't
+::has'nt::hasn't
+::hasnt::hasn't
+::havent::haven't
+::hed::he'd
+::heres::here's
+::here;s::here's
+::hes::he's
+::howd::how'd
+::hows::how's
+::i;d::I'd
+::i"m::I'm
+::I;m::I'm
+::im::I'm
+::isnt'::isn't
+::isnt::isn't
+::is'nt::isn't
+::itll::it'll
+::ive::I've
+::mightnt::mightn't
+::mightve::might've
+::mustnt::mustn't
+::oughtnt::oughtn't
+::shant::shan't
+::shes::she's
+::sholdnt::shouldn't
+::shoudlnt::shouldn't
+::shouldnt::shouldn't
+::shuoldn't::shouldn't
+::sohldn't::shouldn't
+::sohuldn't::shouldn't
+::sohldnt::shouldn't
+::should'nt::shouldn't
+::shoudln::shouldn't
+::shoudln't::shouldn't
+::shouldent::shouldn't
+::shouldve::should've
+::thats::that's
+::thtas::that's
+::thast::that's
+::theres::there's
+::theyd::they'd
+::theyll::they'll
+::they;l::they'll
+::theyr'e::they're
+::theyre::they're
+::they;r::they're
+::theyve::they've
+::they;v::they've
+:c:Ill::I'll ; only correct upper case Ill, to avoide conflict with ill (I feel ill)
+:c:ti's::it's
+::i'ts::it's
+::its'::it's
+::its's::it's
+::it;s::it's
+::its a::it's a
+::it snot::it's not
+::it' snot::it's not
+::iits the::it's the
+::its the::it's the
+::was'nt::wasn't
+::wasnt::wasn't
+::we;d::we'd
+::w'ere::we're
+::weere::we're
+::wasnt::wasn't
+::werent::weren't
+::were'nt::weren't
+::wern't::weren't
+::weve::we've
+::whats::what's
+::what;s::what's
+::whos::who's
+::who;s::who's
+::whyd::why'd
+::wont::won't
+::wo'nt::won't
+::woudlnt::wouldn't
+::wouldnt::wouldn't
+::would'nt::wouldn't
+::woudln't::wouldn't
+::wouldve::would've
+::yall::y'all
+::ya'll::y'all
+::youd::you'd
+::you;d::you'd
+::youll::you'll
+::youre::you're
+::your a::you're a
+::your an::you're an
+::your her::you're her
+::your here::you're here
+::your his::you're his
+::your my::you're my
+::your the::you're the
+::your their::you're their
+::youve::you've
 
 ;------------------------------------------------------------------------------
 ; Ambiguous entries.  Where desired, pick the one that's best for you, edit,
