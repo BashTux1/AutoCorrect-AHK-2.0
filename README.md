@@ -21,7 +21,7 @@ the Main list has increased from **5900+-** corrections up to **8200+-**.
 * If your output word contains a \` (Grave accent) character (as a standalone, not as an accent to a letter), </br> you need to type it twice, this is due to AHK using \` as an escape character. </br> E.g. Password123\`! would output as Password123! (without the \` ) so to output correctly use Password123\`\`! </br> (the first one is treated as a escape character and the second is the character to remain)
 
 ## NOTE
-The script contains separate secetions for **British English** and **American English** </br>
+The script contains separate sections for **British English** and **American English** </br>
 
 By default the script is enabled for **British English** </br>
 See **American English** commented section within the script with instructions to enable it (and Disable British English)
