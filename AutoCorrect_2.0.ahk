@@ -9574,7 +9574,6 @@ program < used widely to dictate a pc application and thus using the American sp
 ; Move the ones you want in effect, above the commented section (/* .. */)
 ; NOTE, care should be taken when making use of some of these, they could clash with command line entries (e.g. "cd" in Linux to change directory)
 ;-------------------------------------------------------------------------------
-; 
 
 ::usb::USB ; Universal Serial Bus
 
