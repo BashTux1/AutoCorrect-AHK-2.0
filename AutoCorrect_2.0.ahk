@@ -9276,8 +9276,11 @@ program < used widely to dictate a pc application and thus using the American sp
 
 ;------------------------------------------------------------------------------
 ; Ambiguous entries.  Where desired, pick the one that's best for you, edit,
-; and move into the above list or, preferably, the autocorrect user file.
+; and move the ones you want in effect, above the commented section (/* .. */)
 ;------------------------------------------------------------------------------
+
+; delete this line and added uncommneted entries here
+
 /*
 :*:cooperat::coöperat
 ::(c)::©
@@ -9569,7 +9572,7 @@ program < used widely to dictate a pc application and thus using the American sp
 ;-------------------------------------------------------------------------------
 ; Common Acronyms to Capitalise
 ; Move the ones you want in effect, above the commented section (/* .. */)
-; NOTE, care should be taken when making use of any these, as some of these could clash with command line entries (e.g. "cd" in Linux to change directory)
+; NOTE, care should be taken when making use of some of these, they could clash with command line entries (e.g. "cd" in Linux to change directory)
 ;-------------------------------------------------------------------------------
 ; 
 
