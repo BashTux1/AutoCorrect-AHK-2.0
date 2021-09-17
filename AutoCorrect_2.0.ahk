@@ -618,15 +618,13 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ; Common Misspellings - the main list
 ;------------------------------------------------------------------------------
 
-::htp:::http:
+::htp::http:
 ::http:\\::http://
 ::httpL::http:
 ::herf::href
 
 ::abit of::a bit of
 ::alot::a lot
-::alot more::a lot more
-::alot of::a lot of
 ::amonth::a month
 ::avengence::a vengeance
 ::a.k.a::a.k.a.
